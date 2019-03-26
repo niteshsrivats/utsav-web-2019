@@ -2,9 +2,9 @@
 # Global classes
 ------------------------------------------------------------*/
 /* palettes:
-lighter background black: #212529
-light background black: #1e1a19
-dark background black: #121212
+lighter background black: #212529 // outermost background
+light background black: #1e1a19 // stuff like the cards inside
+dark background black: #121212 // this is ONLY for accordion
 */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700');
@@ -45,7 +45,7 @@ body {
 ------------------------------------------------------------*/
 .home-page {
 
-    background: url(images/middle-cover.jpg) no-repeat;
+    background: url(images/test-background.jpg) no-repeat;
 
 }
 
@@ -343,7 +343,7 @@ body {
     width: 100%;
     padding-bottom: 120px;
     background: url("images/test-background.jpg") no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 100%;
 }
 
 .content-section .middle-cover {
@@ -2032,21 +2032,28 @@ div.angrytext {
   position: absolute;
   top: 0px;
   left: 0px;
-  background-color: white;
+  background-color: #1e1a19;
   list-style-type: none;
-  opacity: 0.98;
-
-
+  opacity: 1;
+  padding-right: 20px;
 }
 
 .slide li {
-    text-decoration : none;
-    color : #2d2f31;
 }
 
 .slide li a {
+    font-weight: bolder;
+    color : rgba(255,255,255,0.6);
+    text-decoration: none;
     text-align: left;
-    padding : 20px 5px 0px 0px;
+    padding : 20px 30px 0px 0px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.slide li a:hover{
+    transition: 0.3s;
+    color: #fff;
 }
 
 .selected{
