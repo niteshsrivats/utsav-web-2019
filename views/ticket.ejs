@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Hello World!</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskannada.css);
+body { font-family: "Noto Sans Kannada", sans-serif; font-size: 19.0px; line-height: 1.11em; }
+</style>
+</head>
+
+<body class="tickets-page">
+
+
+    <header class="site-header">
+        <div class="header-bar">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-10 col-lg-4">
+                        <h1 class="site-branding flex">
+                            <a href="#">BMSCE UTSAV</a>
+                        </h1>
+                    </div>
+
+                    <div class="col-2 col-lg-8">
+                        <nav class="site-navigation">
+                            <div class="hamburger-menu d-lg-none">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div><!-- .hamburger-menu -->
+
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">SUNFEST 2018</a></li>
+                                <li><a href="#">ARTISTS</a></li>
+                                <li><a href="#">BLOG</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                                <li><a href="#"><i class="fas fa-search"></i></a></li>
+                            </ul><!-- flex -->
+                        </nav><!-- .site-navigation -->
+                    </div><!-- .col-12 -->
+                </div><!-- .row -->
+            </div><!-- container-fluid -->
+        </div><!-- header-bar -->
+    </header><!-- .site-header -->
+
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="entry-header">
+                        <h2 class="entry-title">All Events</h2>
+
+                        <ul class="breadcrumbs flex align-items-center">
+                            <li><a href="#">Home</a></li>
+                            <!-- <li>Buy tickets</li> -->
+                        </ul><!-- .breadcrumbs -->
+                    </div><!-- entry-header -->
+                </div><!-- col-12 -->
+
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- page-header -->
+
+
+    <div class="main-content">
+            <div class="container">
+
+
+                <div class="row elements-wrap">
+                    <div class="col-12 accordion-and-tabs-wrap">
+                                   <div class="entry-header">
+                <div class="entry-title">
+                    <!-- <p>MAKE YOUR CHOICE</p> -->
+                    <h3 id="event-name" style="color: #fff;"> </h3>
+                </div><!-- entry-title -->
+            </div><!-- entry-header -->
+
+                        <div class="entry-content">
+                            <div class="row">
+                                <div class="col-12 col-lg-5 order-sm-last order-md-first" style="margin-top: 130px; background: #212121; padding-top: 20px;">
+                                    <div class="accordion-wrap type-accordion">
+
+
+                                          
+
+
+
+<% Object.keys(json).forEach(function(category){ %>
+                                        <h3 id="<%= category %>" class="entry-title active flex justify-content-between"><%= json[category].name %><span class="arrow-r"></span></h3>
+
+                                        <div class="entry-content">
+                                            <p>
+                                                <ul>
+
+                                                    <% json[category].events.forEach(function(event){ %>
+                                                         <li style="cursor: pointer; " class="event-select" id="<%= category %>_<%= event.id %>" data-info="<%= event.name %>"><%= event.name %></li>
+                                                 <% }); %>
+                                                   
+
+
+                                                </ul>
+
+
+                                            </p>
+                                        </div>
+<% }); %>
+                                        
+                                    </div>
+                                </div><!-- col-5 -->
+
+                                <!-- <div class="col-12 col-lg-7 mt-5 mt-lg-0"> -->
+                <div class="col-12 col-lg-7 mt-5 mt-lg-0">
+                    
+
+
+
+
+<!--                          "fee": ["?100"],
+            "prize": ["First Prize ?1500", "Second Prize ?1000"],
+            "img": "",
+            "date": 14,
+            "time": "10 AM to 1 PM",
+            "venue": "CR 303",
+            "contacts": [
+                ["Ajay Singh","8867981960"],["Kalpan Punamiya","9099558834"]
+            ],
+            "link": "",
+            "rnr": ["Individual Event", "Race Against time (1 hour and 30 min). Countdown", "Only drawing sheets will be provided", "It is a strict sketching event. Any form of sketching is accepted (pencil, pen, color pencils).", "No painting.", "Any form of digital aid will not be tolerated.", "The widget is same for all. But from different perspective.", "Semicircular (opera sitting) seating around the widget.", "Total time duration 2 hours.", "Note: Participants are supposed to report at least 30 minutes prior to the event"],
+            "desc": "Each participant sketches a widget from their perspective. The widget will be incorporated with an optical illusion, thus challenging the competitor under the time limit. Last half an hour includes a surprise.",
+            "name": "DELINEATE -the- DOODAD",
+            "id": 1,
+            "category":  "fine-art-events"
+ -->
+
+
+
+<% Object.keys(json).forEach(function(category){ %>
+
+<% json[category].events.forEach(function(event){ %>
+
+<div class="tabs event-tabs" id="tab_<%= category %>_<%= event.id %>">
+                        <ul class="tabs-nav flex">
+                            <li class="tab-nav flex justify-content-center align-items-center active" data-target="#tab_details">Details</li>
+                            <li class="tab-nav flex justify-content-center align-items-center" data-target="#tab_venue">Rules</li>
+                          <!-- Organizers</li>
+                            <li class="tab-nav flex justify-content-center align-items-center" data-target="#tab_about">About the event</li> -->
+                        </ul><!-- tabs-nav -->
+
+                        <div class="tabs-container" >
+
+                            <div id="tab_details" class="tab-content">
+                                 <!-- <h3 style="color: #fff; background-color: #121212; padding: 10px;"><%= event.name %></h3> -->
+                                    
+
+                      
+
+                                  <p><%= event.desc %></p>
+                                <div class="flex flex-wrap justify-content-between">
+                                    <div class="single-event-details">
+                                        <div class="single-event-details-row">
+                                            <label>Date:</label>
+                                            <p>April <%= event.date %></p>
+                                        </div>
+
+                                        <div class="single-event-details-row">
+                                            <label>Time:</label>
+                                            <p><%= event.time %></p>
+                                        </div>
+
+
+                                        <div class="single-event-details-row">
+                                            <label>Venue:</label>
+                                            <p><%= event.venue %></p>
+                                        </div>
+
+                                        <div class="single-event-details-row">
+                                            <label>Registration Fee:</label>
+                                            <p class="sold-out">$<%= event.fee %> <span>Sold Out</span></p>
+                                        </div>
+
+
+                                        <div class="single-event-details-row">
+                                            <label>Prize:</label>
+<% event.prize.forEach(function(p){ %>
+
+                                            <p><%= p %></p>
+
+                                            <% }); %>
+                                        </div>
+
+                                        <div class="single-event-details-row">
+                                            <label>Contacts:</label>
+                                            <% event.contacts.forEach(function(c){ %>
+
+                                            <p><%= c[0] %>: <%= c[1] %></p>
+
+                                            <% }); %>
+                                        </div>
+                                    </div>
+
+                               <!--      <div class="single-event-map">
+                                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=university of san francisco&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    </div> -->
+                                </div>
+                            </div><!-- .tab-content -->
+
+                            <div id="tab_venue" class="tab-content">
+                               <!-- <h3 style="color: #fff; background-color: #121212; padding: 10px;"><%= event.name %></h3> -->
+                              <!--   <p>Curabitur venenatis efficitur lorem sed tempor. Integer aliquet tempor cursus. Nullam vestibulum convallis risus vel condimentum. Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt. Morbi sodales, dolor id ultricies dictum, diam odio tempor purus, at ultrices elit nulla ac nisl. Vestibulum enim sapien, blandit finibus elit vitae, venenatis tempor enim. </p> -->
+                                <ol>
+
+                                        <% event.rnr.forEach(function(r){ %>
+
+                                            <li><%= r %></li>
+
+                                            <% }); %>
+                                    
+                                   
+                                </ol>
+                                
+                                
+                                
+                                
+                                
+                            </div><!-- .tab-content -->
+
+                           <!--  <div id="tab_organizers" class="tab-content">
+                                <p>Curabitur venenatis efficitur lorem sed tempor. Integer aliquet tempor cursus. Nullam vestibulum convallis risus vel condimentum. Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt. Morbi sodales, dolor id ultricies dictum, diam odio tempor purus, at ultrices elit nulla ac nisl. Vestibulum enim sapien, blandit finibus elit vitae, venenatis tempor enim. </p>
+                            </div> --><!-- .tab-content -->
+
+                          <!--   <div id="tab_about" class="tab-content">
+                                <p>Curabitur venenatis efficitur lorem sed tempor. Integer aliquet tempor cursus. Nullam vestibulum convallis risus vel condimentum. Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt. Morbi sodales, dolor id ultricies dictum, diam odio tempor purus, at ultrices elit nulla ac nisl. Vestibulum enim sapien, blandit finibus elit vitae, venenatis tempor enim. </p>
+                            </div> --><!-- .tab-content -->
+                        </div><!-- .tabs-container -->
+
+
+
+
+                    </div><!-- .tabs -->
+
+                        <% }); %>
+   <% }); %>
+                </div><!-- .col-12 -->
+                            </div><!-- row -->
+                        </div><!-- entry-content -->
+                    </div><!-- col-12 -->
+                </div><!-- row elements-wrap -->
+
+
+
+
+            </div><!-- container -->
+    </div><!-- main-content -->
+
+    <footer class="site-footer">
+        <div class="footer-cover-title flex justify-content-center align-items-center">
+            <h2>SUNFEST</h2>
+        </div><!-- .site-footer -->
+
+        <div class="footer-content-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="entry-title">
+                            <a href="#">SUNFEST</a>
+                        </div><!-- entry-title -->
+
+                        <div class="entry-mail">
+                            <a href="#">SAYHELLO@SUNFEST.COM</a>
+                        </div><!-- .entry-mail -->
+
+                        <div class="copyright-info">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </div><!-- copyright-info -->
+
+                        <div class="footer-social">
+                            <ul class="flex justify-content-center align-items-center">
+                                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div><!-- footer-social -->
+                    </div><!-- col -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </div><!-- footer-content-wrapper -->
+    </footer><!-- site-footer -->
+
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+</body>
+</html>
