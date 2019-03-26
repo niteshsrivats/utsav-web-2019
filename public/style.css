@@ -5,8 +5,8 @@
 lighter background black: #212529
 light background black: #1e1a19
 dark background black: #121212
-
 */
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700');
 
 .flex {
@@ -1282,8 +1282,9 @@ body {
 
 .tickets-page .tabs .tab-content {
     padding: 48px 15px;
-    color: #989898;
-    font-size: 15px;
+    color: rgb(229, 229, 229);
+    font-weight: lighter;
+    font-size: 13px;
     line-height: 1.8;
 }
 
@@ -2039,12 +2040,11 @@ div.angrytext {
 }
 
 .slide li {
-
-    
     text-decoration : none;
     color : #2d2f31;
 }
-.slide li a{
+
+.slide li a {
     text-align: left;
     padding : 20px 5px 0px 0px;
 }
@@ -2115,4 +2115,8 @@ div.angrytext {
     font-size: 13px !important;
     margin: 0 0 5 0 !important;
     padding-top: 2px;
+}
+
+.rules-individual{
+    line-height: 29px;
 }
