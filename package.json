@@ -1,14 +1,14 @@
 {
   "name": "",
   "version": "",
-   "main": "index.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "node test.js"
-},
+  },
   "dependencies": {
     "ejs": "^2.5.8",
     "express": "^4.16.3",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.1"
   }
 }

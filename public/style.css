@@ -1,6 +1,14 @@
 /*------------------------------------------------------------
 # Global classes
 ------------------------------------------------------------*/
+/* palettes:
+lighter background black: #212529
+light background black: #1e1a19
+dark background black: #121212
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700');
+
 .flex {
     display: flex;
 }
@@ -1298,11 +1306,11 @@ body {
 }
 
 .tickets-page .single-event-details-row {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .tickets-page .single-event-details-row:nth-last-of-type(1) {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
 
 .single-event-details,
@@ -1315,7 +1323,7 @@ body {
 
 .single-event-details label {
     display: block;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     color: #fff;
 }
 
@@ -1828,7 +1836,7 @@ body {
 }
 
 .tabs-container .tab-content p {
-    margin-top: 35px;
+    /* margin-top: 35px;  keep note of this style */
     color: #e5e5e5;
     font-size: 15px;
     font-weight: 300;
@@ -2064,4 +2072,47 @@ div.angrytext {
 
 .event-tabs{
     display: none;
+}
+
+#event-name{
+    color: #fff; 
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.event-pretitle{
+    font-weight: lighter;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.event-select{
+    list-style-type: none;    
+    font-weight: 500;
+    margin-left: -20px;
+    letter-spacing: 1.2px;
+    padding: 3px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.8);
+    text-transform: uppercase;
+}
+
+.event-select:hover{
+    transition: 0.3s;
+    color: rgba(255,255,255,1);
+}
+
+.single-event-details-row label {
+    font-weight: bolder;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+
+.event-details-inner {
+    font-weight: lighter !important;
+    font-size: 13px !important;
+    margin: 0 0 5 0 !important;
+    padding-top: 2px;
 }

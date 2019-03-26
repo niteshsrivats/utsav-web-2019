@@ -21,8 +21,6 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskannada.css);
-body { font-family: "Noto Sans Kannada", sans-serif; font-size: 19.0px; line-height: 1.11em; }
 </style>
 </head>
 
@@ -35,7 +33,7 @@ body { font-family: "Noto Sans Kannada", sans-serif; font-size: 19.0px; line-hei
                 <div class="row align-items-center">
                     <div class="col-10 col-lg-4">
                         <h1 class="site-branding flex">
-                            <a href="#">BMSCE UTSAV</a>
+                            <a href="#">UTSAV</a>
                         </h1>
                     </div>
 
@@ -50,11 +48,10 @@ body { font-family: "Noto Sans Kannada", sans-serif; font-size: 19.0px; line-hei
 
                             <ul>
                                 <li><a href="#">HOME</a></li>
-                                <li><a href="#">SUNFEST 2018</a></li>
-                                <li><a href="#">ARTISTS</a></li>
-                                <li><a href="#">BLOG</a></li>
-                                <li><a href="#">CONTACT</a></li>
-                                <li><a href="#"><i class="fas fa-search"></i></a></li>
+                                <li><a href="#">SCHEDULE</a></li>
+                                <li><a href="#">EVENTS</a></li>
+                                <li><a href="#">TEAM</a></li>
+                                <li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
                             </ul><!-- flex -->
                         </nav><!-- .site-navigation -->
                     </div><!-- .col-12 -->
@@ -91,7 +88,8 @@ body { font-family: "Noto Sans Kannada", sans-serif; font-size: 19.0px; line-hei
                                    <div class="entry-header">
                 <div class="entry-title">
                     <!-- <p>MAKE YOUR CHOICE</p> -->
-                    <h3 id="event-name" style="color: #fff;"> </h3>
+                    <h6 class="event-pretitle">Event Name</h6>
+                    <h3 id="event-name"> </h3>
                 </div><!-- entry-title -->
             </div><!-- entry-header -->
 
@@ -178,32 +176,32 @@ body { font-family: "Noto Sans Kannada", sans-serif; font-size: 19.0px; line-hei
                                 <div class="flex flex-wrap justify-content-between">
                                     <div class="single-event-details">
                                         <div class="single-event-details-row">
-                                            <label>Date:</label>
-                                            <p>April <%= event.date %></p>
+                                            <label style="margin-top: 10px;">Date:</label>
+                                            <p class="event-details-inner">April <%= event.date %></p>
                                         </div>
 
                                         <div class="single-event-details-row">
                                             <label>Time:</label>
-                                            <p><%= event.time %></p>
+                                            <p class="event-details-inner"><%= event.time %></p>
                                         </div>
 
 
                                         <div class="single-event-details-row">
                                             <label>Venue:</label>
-                                            <p><%= event.venue %></p>
+                                            <p class="event-details-inner"><%= event.venue %></p>
                                         </div>
 
                                         <div class="single-event-details-row">
                                             <label>Registration Fee:</label>
-                                            <p class="sold-out">$<%= event.fee %> <span>Sold Out</span></p>
+                                            <p class="sold-out event-details-inner" event.fee %> <span>Sold Out</span></p>
                                         </div>
 
 
                                         <div class="single-event-details-row">
                                             <label>Prize:</label>
-<% event.prize.forEach(function(p){ %>
+                                                <% event.prize.forEach(function(p){ %>
 
-                                            <p><%= p %></p>
+                                            <p class="event-details-inner" style="line-height: 3px; margin-top: 10px;"><%= p %></p>
 
                                             <% }); %>
                                         </div>
@@ -212,7 +210,7 @@ body { font-family: "Noto Sans Kannada", sans-serif; font-size: 19.0px; line-hei
                                             <label>Contacts:</label>
                                             <% event.contacts.forEach(function(c){ %>
 
-                                            <p><%= c[0] %>: <%= c[1] %></p>
+                                            <p class="event-details-inner" style="line-height: 3px; margin-top: 10px;"><%= c[0] %>: <%= c[1] %></p>
 
                                             <% }); %>
                                         </div>
