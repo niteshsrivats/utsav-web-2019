@@ -326,6 +326,7 @@ body {
     padding: 16px 40px;
     border-radius: 0;
     margin-right: 20px;
+    margin-bottom: 20px;
     color: hsl(0, 0%, 17%);
     font-weight: 600;
 }
@@ -536,7 +537,7 @@ body {
 }
 
 .the-complete-lineup-artists .artist-single .box-link {
-    position: absolute;
+    position: absolute;                                             /* breakpoint 1 */
     top: 15px;
     left: 232px;
     cursor: pointer;
@@ -2126,4 +2127,10 @@ div.angrytext {
 
 .rules-individual{
     line-height: 29px;
+}
+
+@media screen and (max-width: 1200px){
+    .mobile-category{
+        display: none;
+    }
 }

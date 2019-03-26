@@ -271,21 +271,22 @@ This multi event dance face-off is unlike anything else. See some of the best da
                             <% Object.keys(json).forEach(function(category){ %>
                             <div class="col-6 col-md-4 col-lg-3 artist-single">
                                 <figure class="featured-image">
+                                    
                                    <div> <img src="images/image-1.jpg" alt=""> </div>
-                                   <div class="box-link"><img src="images/box.jpg" alt=""> </div>
+                                   <div class="box-link mobile-category"><img src="images/box.jpg" alt=""> </div>
                                     <!-- <nav> -->
 
                                      <!--  <label for="touch"><span>titre</span></label>       -->         
                                       <!-- <input type="checkbox" id="touch">  -->
 
-                                      <ul class="slide">
+                                      <ul class="slide mobile-category">
 
                                           <% json[category].events.forEach(function(event){ %>
                                         <li><a href="/ticket#<%= category+"_"+event.id %>"><%= event.name %></a></li> 
 <% }); %>
                                       </ul>
 
-                                    <!-- </nav>  -->
+                                
                                 </figure><!-- featured-image -->
 
                                 <h2><%= json[category].name %></h2>
@@ -296,13 +297,13 @@ This multi event dance face-off is unlike anything else. See some of the best da
                             
                         </div><!-- the-complete-lineup-artists -->
 
-                        <div class="row justify-content-center">
+                        <!-- <div class="row justify-content-center">
                             <div class="see-complete-lineup">
                                 <div class="entry-footer">
                                     <a href="#" class="btn">See all lineup</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div><!-- the-complete-lineup -->
                 </div><!-- col-12 -->
             </div><!-- row -->
@@ -500,24 +501,23 @@ This multi event dance face-off is unlike anything else. See some of the best da
                             <a href="#">UTSAV</a>
                         </div><!-- entry-title -->
 
-                        <div class="entry-mail">
+                       <!--  <div class="entry-mail">
                             <a href="#">CONTACTUS@BMSCEUTSAV.IN</a>
-                        </div><!-- .entry-mail -->
+                        </div> -->
 
                         <div class="copyright-info">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            BMSCE UTSAV 2019
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </div><!-- copyright-info -->
 
                         <div class="footer-social">
                             <ul class="flex justify-content-center align-items-center">
-                                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            
+                                <li><a href="https://www.facebook.com/utsavbmsce/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/bmsce_utsav" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/bmsce_utsav/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UC0kwxgOfXDe0KwN0gOm_j0A" target="_blank"><i class="fab fa-youtube"></i></a></li>
                             </ul>
                         </div><!-- footer-social -->
                     </div><!-- col -->

@@ -26,10 +26,13 @@ app.get('/', function(req, res) {
     res.render("index");
 });
 
-app.get('/events', function(req, res) {
-    app.locals.json = events;
-    res.render("categories");
-});
+// app.get('/events', function(req, res) {
+//     app.locals.json = events;
+//     res.render("events");
+// });
+
+
+
 
 app.get('/ticket', function(req, res) {
     app.locals.json = events;
