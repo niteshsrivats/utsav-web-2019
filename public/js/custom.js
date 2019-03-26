@@ -1,7 +1,7 @@
 
 (function($) {
 
-    var h = '';
+    // var h = '';
 
     // 'use strict';
 
@@ -11,21 +11,33 @@
     //     $(this).siblings(".slide").toggleClass("selected"); 
     // });
    
-      $(".artist-single").click(function(){
+      $(".artist-single").hover(function(){
 
         $(this).children().children(".slide").toggleClass("selected"); 
 
     });
 
 
+
+// $('a[href=#top]').click(function(){
+//     $('html, body').animate({scrollTop:0}, 'slow');
+// });
+
       $(".event-select").click(function(){
         // alert(this.id);
         
         // var id = this.id.split(':')[1];
         // console.log("#tab:"+this.id);
-        $(".event-tabs").css("display", "none");
-        // $target = $("#tab:"+this.id);
-        $("#tab_"+this.id).css("display", "block");
+
+
+        $(".event-tabs").css("display", "none");  
+         $('html, body').animate({
+        scrollTop: $("#event-name").offset().top
+    }, 1000);
+       // $("#tab_"+this.id).css("display", "block"); works
+
+       //$(".event-tabs").fadeOut("slow"); works
+        $("#tab_"+this.id).fadeIn("slow"); //works
         
         $('#event-name').text($(this).data('info'));
         console.log($(this).data('data-info'));

@@ -47,11 +47,11 @@
                             </div><!-- .hamburger-menu -->
 
                             <ul>
-                                <li><a href="#">HOME</a></li>
-                                <li><a href="#">SCHEDULE</a></li>
-                                <li><a href="#">EVENTS</a></li>
-                                <li><a href="#">TEAM</a></li>
-                                <li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
+                                <li><a href="/">HOME</a></li>
+                                <li><a href="/schedule">SCHEDULE</a></li>
+                                <li><a href="/ticket">EVENTS</a></li>
+                                <li><a href="/team">TEAM</a></li>
+                                <li><a href="https://goo.gl/maps/inrvEcmXwsM2" target="_blank"><i class="fas fa-map-marker-alt"></i></a></li>
                             </ul><!-- flex -->
                         </nav><!-- .site-navigation -->
                     </div><!-- .col-12 -->
@@ -196,7 +196,7 @@
 
                                         <div class="single-event-details-row">
                                             <label>Registration Fee:</label>
-                                            <p class="sold-out event-details-inner" event.fee %> <span>Sold Out</span></p>
+                                            <p class="event-details-inner"><%= event.fee %></p>
                                         </div>
 
 

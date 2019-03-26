@@ -3,7 +3,7 @@ module.exports = {
         "desc": "",
         "link": "/ticket#fine-art-events_1",
         "events": [{
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?1500", "Second Prize ?1000"],
             "img": "",
             "date": 14,
@@ -21,7 +21,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?2000", "Second Prize ?1000"],
             "img": "",
             "date": 13,
@@ -38,7 +38,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?150"],
+            "fee": ["₹ 150"],
             "prize": ["First Prize ?2000", "Second Prize ?1000"],
             "img": "",
             "date": 14,
@@ -54,7 +54,7 @@ module.exports = {
             "id": 3
 },
 {
-            "fee": ["?200"],
+            "fee": ["₹ 200"],
             "prize": ["First Prize ?2000", ""],
             "img": "",
             "date": 13,
@@ -76,7 +76,7 @@ module.exports = {
         "desc": "",
         "link": "",
         "events": [{
-            "fee": ["?150"],
+            "fee": ["₹ 150"],
             "prize": ["First Prize ?6000", "Second Prize ?3000"],
             "img": "",
             "date": 0,
@@ -93,7 +93,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?150"],
+            "fee": ["₹ 150"],
             "prize": ["First Prize ?6000", "Second Prize ?3000"],
             "img": "",
             "date": 0,
@@ -110,7 +110,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?4000", "Second Prize ?2000"],
             "img": "",
             "date": 0,
@@ -127,7 +127,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?2000", "Second Prize ?1000"],
             "img": "",
             "date": 0,
@@ -139,12 +139,12 @@ module.exports = {
             "link": "",
             "rnr": ["Teams shall consist of max 2 persons", "Written prelims will be followed by finals", "Use of Internet is prohibited", "Quizmasters decision is final", "Cross college teams are not allowed", "3 teams per college", "BMS teams not allowed", "On spot registrations are not available"],
             "desc": "   An exciting quiz based on books, movies, comics and TV shows",
-            "name": "Fandom Quiz (in collaboration  with Inksanity (for rolling trophy)) ",
+            "name": "Fandom Quiz (in collaboration  with Inksanity) ",
             "id": 8
 },
 
 {
-            "fee": ["?150"],
+            "fee": ["₹ 150"],
             "prize": ["First Prize ?6000", "Second Prize ?3000"],
             "img": "",
             "date": 0,
@@ -166,7 +166,7 @@ module.exports = {
         "desc": "",
         "link": "",
         "events": [{
-            "fee": ["?800"],
+            "fee": ["₹ 800"],
             "prize": ["First Prize ?12000", "Second Prize ?8000"],
             "img": "",
             "date": 12,
@@ -183,7 +183,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?200"],
+            "fee": ["₹ 200"],
             "prize": ["First Prize ?5000", "Second Prize ?3000"],
             "img": "",
             "date": 13,
@@ -200,7 +200,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?500"],
+            "fee": ["₹ 500"],
             "prize": ["First Prize ?8000", "Second Prize ?4000"],
             "img": "",
             "date": 14,
@@ -218,7 +218,7 @@ module.exports = {
 
 
 {
-            "fee": ["?750"],
+            "fee": ["₹ 750"],
             "prize": ["First Prize ?15000", "Second Prize ?7000"],
             "img": "",
             "date": 14,
@@ -235,7 +235,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?1000"],
+            "fee": ["₹ 1000"],
             "prize": ["First Prize ?25000", "Second Prize ?15000"],
             "img": "",
             "date": 14,
@@ -252,7 +252,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?800"],
+            "fee": ["₹ 800"],
             "prize": ["First Prize ?12000", "Second Prize ?8000"],
             "img": "",
             "date": 12,
@@ -285,7 +285,7 @@ module.exports = {
         "desc": "",
         "link": "",
         "events": [{
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?2000", "Second Prize ?1000"],
             "img": "",
             "date": 13,
@@ -301,7 +301,7 @@ module.exports = {
             "id": 16
 },
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?2000", "Second Prize ?1500"],
             "img": "",
             "date": 13,
@@ -317,7 +317,7 @@ module.exports = {
             "id": 17
 },
 {
-            "fee": ["?50"],
+            "fee": ["₹ 50"],
             "prize": ["First Prize ?1000", "Second Prize ?500"],
             "img": "",
             "date": 13,
@@ -333,7 +333,7 @@ module.exports = {
             "id": 18
 },
 {
-            "fee": ["?50"],
+            "fee": ["₹ 50"],
             "prize": ["First Prize ?1000", "Second Prize ?500"],
             "img": "",
             "date": 14,
@@ -349,7 +349,7 @@ module.exports = {
             "id": 19
 },
 {
-            "fee": ["?50"],
+            "fee": ["₹ 50"],
             "prize": ["First Prize ?1000", "Second Prize ?500"],
             "img": "",
             "date": 14,
@@ -371,7 +371,7 @@ module.exports = {
         "desc": "",
         "link": "",
         "events": [{
-            "fee": ["?150"],
+            "fee": ["₹ 150"],
             "prize": ["First Prize ?3000", "Second Prize ?1500"],
             "img": "",
             "date": 0,
@@ -388,7 +388,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?800"],
+            "fee": ["₹ 800"],
             "prize": ["First Prize ?12000", "Second Prize ?7000"],
             "img": "",
             "date": 13,
@@ -405,7 +405,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?150"],
+            "fee": ["₹ 150"],
             "prize": ["First Prize ?3000", "Second Prize ?1500"],
             "img": "",
             "date": 0,
@@ -423,7 +423,7 @@ module.exports = {
 
 
 {
-            "fee": ["?400"],
+            "fee": ["₹ 400"],
             "prize": ["First Prize ?6000", "Second Prize ?3000"],
             "img": "",
             "date": 0,
@@ -447,7 +447,7 @@ module.exports = {
         "desc": "",
         "link": "",
         "events": [{
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ", "Second Prize "],
             "img": "",
             "date": 0,
@@ -479,7 +479,7 @@ module.exports = {
             "id": 26
 },
 {
-            "fee": ["?50"],
+            "fee": ["₹ 50"],
             "prize": ["First Prize ?1500", "Second Prize ?1000"],
             "img": "",
             "date": 0,
@@ -501,7 +501,7 @@ module.exports = {
         "desc": "",
         "link": "",
         "events": [{
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?4000", "Second Prize ?2000"],
             "img": "",
             "date":0,
@@ -517,7 +517,7 @@ module.exports = {
             "id": 28
 },
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?2500", "Second Prize ?1000"],
             "img": "",
             "date": 12,
@@ -533,7 +533,7 @@ module.exports = {
             "id": 29
 },
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?2000", "Second Prize ?1000"],
             "img": "",
             "date": 0,
@@ -548,7 +548,7 @@ module.exports = {
             "name": "FANDOM QUIZ",
             "id": 30
 },{
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?2000", "Second Prize ?1000"],
             "img": "",
             "date": 0,
@@ -563,7 +563,7 @@ module.exports = {
             "name": "FANDOM QUIZ",
             "id": 31
 },{
-    "fee": ["?150"],
+    "fee": ["₹ 150"],
     "prize": ["First Prize ?3000", "Second Prize ?1500"],
     "img": "",
     "date": 13,
@@ -605,7 +605,7 @@ module.exports = {
         "desc": "",
         "link": "",
         "events": [{
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?1500", "Second Prize ?1000"],
             "img": "",
             "date": 14,
@@ -621,7 +621,7 @@ module.exports = {
             "id": 34
 },
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?1500", "Second Prize ?1000"],
             "img": "",
             "date": 12,
@@ -637,7 +637,7 @@ module.exports = {
             "id": 35
 },
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?1500", "Second Prize ?1000"],
             "img": "",
             "date": 13,
@@ -659,7 +659,7 @@ module.exports = {
         "desc": "",
         "link": "",
         "events": [{
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?1500", "Second Prize ?1000"],
             "img": "",
             "date": 14,
@@ -676,7 +676,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?1500", "Second Prize ?1000"],
             "img": "",
             "date": 13,
@@ -693,7 +693,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?1500", "Second Prize ?1000"],
             "img": "",
             "date": 14,
@@ -710,7 +710,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?1500", "Second Prize ?1000"],
             "img": "",
             "date": 13,
@@ -727,7 +727,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?300"],
+            "fee": ["₹ 300"],
             "prize": ["First Prize ?5000", "Second Prize ?2500"],
             "img": "",
             "date": 0,
@@ -744,7 +744,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?300 (per team)"],
+            "fee": ["₹ 300 (per team)"],
             "prize": ["First Prize ?5000", "Second Prize ?2500"],
             "img": "",
             "date": 0,
@@ -768,7 +768,7 @@ module.exports = {
         "desc": "",
         "link": "",
         "events": [{
-            "fee": ["?400"],
+            "fee": ["₹ 400"],
             "prize": ["First Prize ?4000", "Second Prize ?2000"],
             "img": "",
             "date": 0,
@@ -790,7 +790,7 @@ module.exports = {
         "desc": "",
         "link": "",
         "events": [{
-            "fee": ["?1500"],
+            "fee": ["₹ 1500"],
             "prize": ["First Prize ?25000", "Second Prize ?10000"],
             "img": "",
             "date": 13,
@@ -814,7 +814,7 @@ module.exports = {
         "desc": "",
         "link": "",
         "events": [{
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?4000", "Second Prize ?1500"],
             "img": "",
             "date": 13,
@@ -830,7 +830,7 @@ module.exports = {
             "id": 44
 },
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?4000", "Second Prize ?1500"],
             "img": "",
             "date": 13,
@@ -846,7 +846,7 @@ module.exports = {
             "id": 45
 },
 {
-            "fee": ["?150"],
+            "fee": ["₹ 150"],
             "prize": ["First Prize ?4000", "Second Prize ?1500"],
             "img": "",
             "date": 14,
@@ -954,7 +954,7 @@ module.exports = {
         "desc": "",
         "link": "",
         "events": [{
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?2000", "Second Prize ?1000"],
             "img": "",
             "date": 14,
@@ -971,7 +971,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?50"],
+            "fee": ["₹ 50"],
             "prize": [],
             "img": "",
             "date": 14,
@@ -989,7 +989,7 @@ module.exports = {
 
 
 {
-            "fee": ["?50"],
+            "fee": ["₹ 50"],
             "prize": [],
             "img": "",
             "date": 0,
@@ -1006,7 +1006,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": [],
             "img": "",
             "date": 14,
@@ -1023,7 +1023,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?150"],
+            "fee": ["₹ 150"],
             "prize": ["First Prize ?3000", "Second Prize ?2000"],
             "img": "",
             "date": 12,
@@ -1040,7 +1040,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?2000", "Second Prize ?1000"],
             "img": "",
             "date": 13,
@@ -1057,7 +1057,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?50"],
+            "fee": ["₹ 50"],
             "prize": [],
             "img": "",
             "date": 13,
@@ -1075,7 +1075,7 @@ module.exports = {
 
 
 {
-            "fee": ["?50"],
+            "fee": ["₹ 50"],
             "prize": [],
             "img": "",
             "date": 13,
@@ -1097,7 +1097,7 @@ module.exports = {
         "desc": "",
         "link": "",
         "events": [{
-            "fee": ["?800"],
+            "fee": ["₹ 800"],
             "prize": ["First Prize ?8000", "Second Prize ?5000"],
             "img": "",
             "date": 0,
@@ -1114,7 +1114,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?400"],
+            "fee": ["₹ 400"],
             "prize": ["First Prize ?4000", "Second Prize ?2000"],
             "img": "",
             "date": 0,
@@ -1131,7 +1131,7 @@ module.exports = {
 },
 
 {
-            "fee": ["?100"],
+            "fee": ["₹ 100"],
             "prize": ["First Prize ?2000", "Second Prize ?1000"],
             "img": "",
             "date": 14,

@@ -2043,17 +2043,13 @@ div.angrytext {
 }
 
 .slide li a {
-    font-weight: 400;
+    font-weight: bolder;
     color : rgba(255,255,255,0.6);
     text-decoration: none;
     text-align: left;
-    padding : 20px 0px 0px 0px;
+    padding : 20px 30px 0px 0px;
     line-height: 20px;
     text-transform: uppercase;
-}
-
-.slide li:first-child{
-    padding-right: 30px;
 }
 
 .slide li a:hover{
