@@ -3,8 +3,8 @@ module.exports = {
         "desc": "",
         "link": "/ticket#fine-art-events_1",
         "events": [{
-            "fee": ["₹ 100"],
-            "prize": ["First Prize ?1500", "Second Prize ?1000"],
+            "fee": ["₹100"],
+            "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
             "img": "",
             "date": 14,
             "time": "10 AM to 1 PM",
