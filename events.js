@@ -1219,7 +1219,44 @@ module.exports = {
         "desc": "",
         "link": "",
         "img": "https://imgur.com/lpm1IGm.jpg",
-        "events": [],
+        "events": [{
+            "fee": ["₹250"],
+            "prize": ["First Prize ₹5000", "Second Prize ₹2500", "Third Prize ₹1500"],
+            "img": "",
+            "date": 0,
+            "time": "",
+            "venue": "",
+            "contacts": [
+                ["Akhil", "9945107250"]
+            ],
+            "link": "",
+            "rnr": ["Minimum of 4 contestants in each category or else the contestant will be put into the next category.", 
+                  "Contests should carry valid ID card for verification.",
+                   "3 places will be awarded in each category.",
+                    "1st place winners of each category will compete for the title Mr. UTSAV."],
+            "desc": "Bodybuilding competition.Categories: 50-60, 60-70, 70-75, 75-85, 85+.",
+            "name": "Mr. Utsav",
+            "id": 68
+},
+{
+            "fee": ["₹50"],
+            "prize": ["First Prize ₹1500", "Second Prize ₹1000"],
+            "img": "",
+            "date": 0,
+            "time": "",
+            "venue": "",
+            "contacts": [
+                ["Smrithi", "9886874179"]
+            ],
+            "link": "",
+            "rnr": ["The player must not spill any food.",
+                  "The player who finishes the food the fastest qualify to the next round.",
+                  "Round 1: This will be held with 10 participants contesting at a time. The fastest two will qualify to the next round.",
+                  "Round 2: From this stage, knockout rules will apply.", "Round 3: Final round"],
+            "desc": "",
+            "name": "Hogathon",
+            "id": 69
+}],
        
         "name": "Informal"
     }
