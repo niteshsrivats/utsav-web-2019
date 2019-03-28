@@ -2,7 +2,7 @@ module.exports = {
     "fine-art-events": {
         "desc": "",
         "link": "/ticket#fine-art-events_1",
-        "img": "https://imgur.com/XauWpNW.jpg",
+        "img": "https://imgur.com/uJIAAVE.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
@@ -76,7 +76,7 @@ module.exports = {
     "quiz-events": {
         "desc": "",
         "link": "/ticket#quiz-events_5",
-        "img": "https://imgur.com/YzV1wP4.jpg",
+        "img": "https://imgur.com/eF3bjbk.jpg",
         "events": [{
             "fee": ["₹150"],
             "prize": ["First Prize: ₹6000", "Second Prize: ₹3000"],
@@ -167,7 +167,7 @@ module.exports = {
     "western-dance-events": {
         "desc": "",
         "link": "/ticket#western-dance-events_10",
-        "img": "https://imgur.com/GAlZySb.jpg",
+        "img": "https://imgur.com/Yick1c3.jpg",
         "events": [{
             "fee": ["₹800"],
             "prize": ["First Prize: ₹12000", "Second Prize: ₹8000"],
@@ -287,7 +287,7 @@ module.exports = {
     "tech-events": {
         "desc": "",
         "link": "/ticket#tech-events_16",
-        "img": "https://imgur.com/7QjEBG8.jpg",
+        "img": "https://imgur.com/wjADRU9.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
@@ -374,7 +374,7 @@ module.exports = {
     "western-music-events": {
         "desc": "",
         "link": "/ticket#western-music-events_21",
-        "img": "https://imgur.com/0Ob52cO.jpg",
+        "img": "https://imgur.com/tC4wc5Y.jpg",
         "events": [{
             "fee": ["₹150"],
             "prize": ["First Prize: ₹3000", "Second Prize: ₹1500"],
@@ -451,7 +451,7 @@ module.exports = {
     "photography": {
         "desc": "",
         "link": "/ticket#photography_25",
-        "img": "https://imgur.com/4BjJs8O.jpg",
+        "img": "https://imgur.com/ZvyXS76.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": [],
@@ -506,7 +506,7 @@ module.exports = {
     "literary-events": {
         "desc": "",
         "link": "/ticket#literary-events_28",
-        "img": "https://imgur.com/wGldrrU.jpg",
+        "img": "https://imgur.com/GAHp7LO.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹4000", "Second Prize: ₹2000"],
@@ -591,12 +591,12 @@ module.exports = {
 
 ],
        
-        "name": "Literary Events"
+        "name": "Literary"
     },
     "math-events": {
         "desc": "",
         "link": "/ticket#math-events_34",
-        "img": "https://imgur.com/M32dW0R.jpg",
+        "img": "https://imgur.com/vkALCZV.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
@@ -646,12 +646,12 @@ module.exports = {
             "id": 36
 }],
        
-        "name": "Math Events"
+        "name": "Maths"
     },
     "eastern-events": {
         "desc": "",
         "link": "/ticket#eastern-events_37",
-        "img": "https://imgur.com/nSOmJtj.jpg",
+        "img": "https://imgur.com/ZkzDnGb.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
@@ -761,7 +761,7 @@ module.exports = {
     "chiranthana": {
         "desc": "",
         "link": "/ticket#chiranthana_63",
-        "img": "https://imgur.com/WGn8ZmE.jpg",
+        "img": "https://imgur.com/rbAX6Wx.jpg",
         "events": [{
             "fee": [],
             "prize": [],
@@ -848,7 +848,7 @@ module.exports = {
     "fashion": {
         "desc": "",
         "link": "/ticket#fashion_43",
-        "img": "https://imgur.com/bHPf8vR.jpg",
+        "img": "https://imgur.com/cmZcZT4.jpg",
         "events": [{
             "fee": ["₹1500"],
             "prize": ["First Prize: ₹25000", "Second Prize: ₹10000"],
@@ -873,7 +873,7 @@ module.exports = {
     "entrepreneurship-events": {
         "desc": "",
         "link": "/ticket#entrepreneurship-events_44",
-        "img": "https://imgur.com/VAWyWZH.jpg",
+        "img": "https://imgur.com/MezwbYz.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹4000", "Second Prize: ₹1500"],
@@ -927,7 +927,7 @@ module.exports = {
     },
     "respawn-gaming": {
         "desc": "",
-        "img": "https://imgur.com/ozAiKua.jpg",
+        "img": "https://imgur.com/BnX1fY0.jpg",
         "link": "/ticket#respawn-gaming_47",
         "events": [{
             "fee": [],
@@ -1015,7 +1015,7 @@ module.exports = {
     "mountaineering": {
         "desc": "",
         "link": "/ticket#mountaineering_52",
-        "img": "https://imgur.com/uhccX2f.jpg",
+        "img": "https://imgur.com/TUjoXeD.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
@@ -1159,7 +1159,7 @@ module.exports = {
     "theatre-events": {
         "desc": "",
         "link": "/ticket#theatre-events_60",
-        "img": "https://imgur.com/1zGyHhl.jpg",
+        "img": "https://imgur.com/EyXB1gq.jpg",
         "events": [{
             "fee": ["₹800"],
             "prize": ["First Prize: ₹8000", "Second Prize: ₹5000"],
@@ -1218,7 +1218,7 @@ module.exports = {
     "informal-events": {
         "desc": "",
         "link": "",
-        "img": "https://imgur.com/lpm1IGm.jpg",
+        "img": "https://imgur.com/DRXiZcm.jpg",
         "events": [{
             "fee": ["₹250"],
             "prize": ["First Prize ₹5000", "Second Prize ₹2500", "Third Prize ₹1500"],

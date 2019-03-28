@@ -3,7 +3,8 @@ var http = require('http');
 var path = require('path');
 var logger = require("morgan");
 var events = require('./events');
-var team = require('./team')
+var team = require('./team');
+var gallery = requie('./gallery');
 var app = express();
 const PORT = process.env.PORT || 80
 

@@ -2190,21 +2190,22 @@ div.angrytext {
     /* transform:translateY(-60px); */
 }
 .our-team .team-content{
-    position: absolute;
+/*    position: absolute;
     bottom: 0;
-    left: 0;
+    left: 0;*/
     width:100%;
     opacity:0;
     color: #fff;
     padding: 20px 0;
     text-align: center;
     background:#212121;
-    transform:translateY(0px);
-    transition: all 0.50s ease-in-out 0s;
+    /*transform:translateY(0px);*/
+    /*transition: all 0.50s ease-in-out 0s;*/
 }
 .our-team .team-content{
-    transform:translateY(20px);
+    /*transform:translateY(20px);*/
     opacity:1;
+    /*transform: translateY(95px);*/
 }
 .our-team .team-title{
     font-size:19px;
