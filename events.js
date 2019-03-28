@@ -760,7 +760,7 @@ module.exports = {
     },
     "chiranthana": {
         "desc": "",
-        "link": "/ticket#chiranthana_999",
+        "link": "/ticket#chiranthana_63",
         "img": "https://imgur.com/WGn8ZmE.jpg",
         "events": [{
             "fee": [],
