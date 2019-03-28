@@ -4,7 +4,7 @@ var path = require('path');
 var logger = require("morgan");
 var events = require('./events');
 var team = require('./team');
-var gallery = requie('./gallery');
+var gallery = require('./gallery');
 var app = express();
 const PORT = process.env.PORT || 80
 
@@ -24,6 +24,7 @@ app.use(function(request, response, next) {
 
 app.get('/', function(req, res) {
     app.locals.json = events;
+    app.locals.gallery = gallery;
     res.render("index");
 });
 
@@ -55,8 +56,7 @@ app.get('/schedule', function(req, res) {
 // });
 
 app.get('/team', function(req, res) {
-    app.locals.faculty = team.faculty;
-    app.locals.core = team.core;
+    // app.locals.gallery = gallery;
     res.render("team");
 });
 

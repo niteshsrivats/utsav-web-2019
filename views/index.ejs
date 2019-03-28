@@ -340,11 +340,11 @@ This multi event dance face-off is unlike anything else. See some of the best da
                 <div class="swiper-container next-event-slider">
                     <div class="swiper-wrapper">
 
-            <% for(var i=1; i<=32; i++){ %>
+            <% for(var i=0; i<gallery.pictures.length; i++){ %>
                         <div class="swiper-slide">
                             <div class="next-event-content">
                                 <figure class="featured-image">
-                                    <img src="images/throwback/tb (<%= i %>).JPG" alt="">
+                                    <img src="<%= gallery.pictures[i] %>" alt="">
 
                                    <!--  <div href="#" class="entry-content flex flex-column justify-content-center align-items-center">
                                         <h3>Welcoming Party 2018</h3>
