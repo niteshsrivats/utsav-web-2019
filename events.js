@@ -763,20 +763,84 @@ module.exports = {
         "link": "/ticket#chiranthana_999",
         "img": "https://imgur.com/WGn8ZmE.jpg",
         "events": [{
-            "fee": ["₹400"],
-            "prize": ["First Prize: ₹4000", "Second Prize: ₹2000"],
+            "fee": [],
+            "prize": [],
             "img": "",
             "date": 0,
             "time": "",
             "venue": "",
             "contacts": [
-                ["Vikas","9590858185"],["Chandan C Bagan","9741672080"]
+                ["Hemang", "9482861034"], ["Venkatatheertha H V", "9739549664"]
             ],
             "link": "",
-            "rnr": ["A team should consist of 4-8 members(+1 narrator).", "Duration is 6+2 minutes (not to be exceeded).", "Props are not allowed.", "No language barrier.", "Any kind of vulgarity will lead to disqualification of the team.", "Teams should report the venue before the event starts.", "Judges decision will be final"],
-            "desc": "Acting + advertising with tons of humour as a topping on the stage! This is a platform for all you creative people out there to bring your crazy ad ideas and weave your mad illusions on the stage. So what are you waiting for? Gather all your friends and show off your madness with ads!",
+            "rnr": ["ವೈಯಕ್ತಿಕ ಪಾಲ್ಗೊಳ್ಳುವಿಕೆ.", "ಪೂರ್ವಭಾವಿ ಸುತ್ತಿನ ಸಮಯಾವಕಾಶ ೩+೧ ನಿಮಿಷ, ಕೊಟ್ಟಿರುವ ವಿಷಯದ ಮೇಲೆ ಸ್ಪರ್ಧಿಗಳು ಪರ ಅಥವಾ ವಿರೋಧವಾಗಿ ಮಾತನಾಡಬೇಕು.", "ಪೂರ್ವಭಾವಿ ಸುತ್ತಿನ ವಿಷಯ ಒಂದು ದಿನ ಮುಂಚಿತವಾಗಿ ಕೊಡಲಾಗುವುದು.", "ಅಂತಿಮ ಸುತ್ತಿನ ಸಮಯಾವಕಾಶ ೩+೧ ನಿಮಿಷ, ಕೊಟ್ಟಿರುವ ವಿಷಯದ ಮೇಲೆ ಸ್ಪರ್ಧಿಗಳು ಪರ ಅಥವಾ ವಿರೋಧವಾಗಿ ಮಾತನಾಡಬೇಕು.", "ನಿರ್ಣಾಯಕರ ತೀರ್ಮಾನ ಅಂತಿಮ."],
+            "desc": "",
             "name": "ಚರ್ಚಾಸ್ಪರ್ಧೆ (Kannada debate)",
-            "id": 999
+            "id": 63
+},
+{
+            "fee": [],
+            "prize": [],
+            "img": "",
+            "date": 13,
+            "time": "1 PM to 3 PM",
+            "venue": "MV Hall",
+            "contacts": [
+                ["Arpitha K K", "9449917378"], ["Akshaya Kumar K M", "8277180299"]
+            ],
+            "link": "",
+            "rnr": ["ಒಂದು ತಂಡದಲ್ಲಿ ೩ ಸ್ಪರ್ಧಿಗಳಿರಬೇಕು.", "ಅಭಿನಯದಿಂದ ಕೊಟ್ಟ ವಿಷಯದ ಸೂಚನೆ.", "ಪೂರ್ವಭಾವಿ ಸುತ್ತಿನಲ್ಲಿ ಆಯ್ಕೆಗೊಂಡ ೫ ತಂಡಗಳಿಗೆ ಅಂತಿಮ ಸುತ್ತಿಗೆ ಪ್ರವೇಶ.", "ಯಾವುದೇ ರೀತಿಯಲ್ಲಿ ಮೌಖಿಕವಾಗಿ ಸೂಚಿಸುವಂತಿಲ್ಲ, ಪದಗಳನ್ನು ಒಡೆದು ಸೂಚಿಸುವಂತಿಲ್ಲ.", "ನಿರ್ಣಾಯಕರ ತೀರ್ಮಾನ ಅಂತಿಮ."],
+            "desc": "ಸಂದರ್ಭ ಗ್ರಹಿಕೆ, ನೆನಪಿನ ಶಕ್ತಿ, ಚುರುಕುತನ, ಪರಸ್ಪರ ಹೊಂದಾಣಿಕೆ, ಸಂದರ್ಭೋಚಿತವಾಗಿ ಅದನ್ನು ಪ್ರಸ್ತುತಪಡಿಸುವಿಕೆ ಇವೆಲ್ಲವನ್ನು ಮೂಕಾಭಿನಯ ಸ್ಪರ್ಧೆಯ ಮೂಲಕ ಹೊರತರುವ ಪ್ರಯತ್ನ.",
+            "name": "ಮೂಕಾಭಿನಯ",
+            "id": 64
+},
+{
+            "fee": [],
+            "prize": [],
+            "img": "",
+            "date": 0,
+            "time": "",
+            "venue": "",
+            "contacts": [
+                ["Shruti Hegde", "9481373575"], ["Thanmayee PL", "9071962240"]
+            ],
+            "link": "",
+            "rnr": ["ಒಂದು ತಂಡದಲ್ಲಿ ೨ ಸ್ಪರ್ಧಾಳುಗಳು.", "ಲಿಖಿತ ಪೂರ್ವಭಾವಿ ಸುತ್ತು.", "ಆಯ್ಕೆಗೊಂಡ ೫ ತಂಡಗಳಿಗೆ ಅಂತಿಮ ಸುತ್ತಿಗೆ ಪ್ರವೇಶ.", "ನಿರ್ಣಾಯಕರ ತೀರ್ಮಾನ ಅಂತಿಮ."],
+            "desc": "ಕನ್ನಡ ರಸಪ್ರಶ್ನೆ ಸ್ಪರ್ಧೆ ನಡೆಸುವ ಮೂಲಕ ನಾಡು-ನುಡಿ, ಸಂಸ್ಕೃತಿ, ಭಾಷೆಗಳ ಬಗೆಗಿನ ನಮ್ಮ ಜ್ಞಾನದ ವಿನಿಮಯ. ಪ್ರಶ್ನೆಗಳು ಕನ್ನಡ ನಾಡು-ನುಡಿ, ಸಂಸ್ಕೃತಿಯ ಜೊತೆಗೆ ಸಾಮಾನ್ಯ ಜ್ಞಾನವನ್ನೂ ಒಳಗೊಂಡಿರುತ್ತದೆ.",
+            "name": "ರಸಪ್ರಶ್ನೆ",
+            "id": 65
+},
+{
+            "fee": [],
+            "prize": [],
+            "img": "",
+            "date": 14,
+            "time": "10 PM to 12 PM",
+            "venue": "Old library auditorium",
+            "contacts": [
+                ["Ganesh P Patil", "8792947898"], ["Basavaraj Danagond", "9742990335"]
+            ],
+            "link": "",
+            "rnr": ["ಒಂದು ತಂಡದಲ್ಲಿ ೨ ಸ್ಪರ್ಧಿಗಳು.", "ಲಿಖಿತ ಪೂರ್ವಭಾವಿ ಸುತ್ತು.", "ಆಯ್ಕೆಗೊಂಡ ೫ ತಂಡಗಳಿಗೆ ಅಂತಿಮ ಸುತ್ತಿಗೆ ಪ್ರವೇಶ.", "ನಿರ್ಣಾಯಕರ ತೀರ್ಮಾನ ಅಂತಿಮ."],
+            "desc": "ಚಲನಚಿತ್ರದ ಕಥೆ, ಪಾತ್ರಗಳು, ಸಂಗೀತ ನಿರ್ದೇಶನ, ಛಾಯಾಗ್ರಹಣ ಸಂಬಂಧಿತ ಪ್ರಶ್ನೆಗಳು.",
+            "name": "ಅಂತ್ಯಾಕ್ಷರಿ",
+            "id": 66
+},
+{
+            "fee": [],
+            "prize": [],
+            "img": "",
+            "date": 14,
+            "time": "1:30 PM to 4 PM",
+            "venue": "Old library auditorium",
+            "contacts": [
+                ["Sanjay H A", "7026081608"], ["Amith Kumar U G", "7813913660"]
+            ],
+            "link": "",
+            "rnr": ["ಒಂದು ತಂಡದಲ್ಲಿ ೨ ಸ್ಪರ್ಧಿಗಳು.", "ಪೂರ್ವಭಾವಿ ಸುತ್ತು ಪದಬಂಧ ಹಾಗೂ ಅಕ್ಷರಗಳಿಗೆ ಸಂಭದಿಸಿರುತ್ತದೆ.", "ಆಯ್ಕೆಗೊಂಡ ೬ ತಂಡಗಳಿಗೆ ಅಂತಿಮ ಸುತ್ತಿಗೆ ಪ್ರವೇಶ.", "ನಿರ್ಣಾಯಕರ ತೀರ್ಮಾನವೇ ಅಂತಿಮ."],
+            "desc": "ಚಲನಚಿತ್ರದ ಕಥೆ, ಪಾತ್ರಗಳು, ಸಂಗೀತ ನಿರ್ದೇಶನ, ಛಾಯಾಗ್ರಹಣ ಸಂಬಂಧಿತ ಪ್ರಶ್ನೆಗಳು.",
+            "name": "ಚಕ್ರವ್ಯೂಹ",
+            "id": 67
 }],
        
         "name": "Chiranthana"
