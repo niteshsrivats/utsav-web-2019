@@ -40,7 +40,7 @@
         $("#tab_"+this.id).fadeIn("slow"); //works
         
         $('#event-name').text($(this).data('info'));
-        console.log($(this).data('data-info'));
+        // console.log($(this).data('data-info'));
         history.replaceState(undefined, undefined, "/ticket#" + this.id);
         //window.location.hash = this.id;
 
@@ -197,6 +197,8 @@ $('.accordion-wrap .entry-title').removeClass('active');
         // console.log(parseInt(hash));
          $("#"+hash.split("_")[0]).trigger('click');
         $("#tab_"+hash).css("display", "block");
+
+$('#event-name').text($("#"+hash).text());
 
         //window.location.hash = hash+1;
 

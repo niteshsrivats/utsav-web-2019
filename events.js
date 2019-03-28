@@ -2,6 +2,7 @@ module.exports = {
     "fine-art-events": {
         "desc": "",
         "link": "/ticket#fine-art-events_1",
+        "img": "https://imgur.com/XauWpNW.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
@@ -16,8 +17,8 @@ module.exports = {
             "rnr": ["Individual Event", "Race Against time (1 hour and 30 min). Countdown", "Only drawing sheets will be provided", "It is a strict sketching event. Any form of sketching is accepted (pencil, pen, color pencils).", "No painting.", "Any form of digital aid will not be tolerated.", "The widget is same for all. But from different perspective.", "Semicircular (opera sitting) seating around the widget.", "Total time duration 2 hours.", "Note: Participants are supposed to report at least 30 minutes prior to the event"],
             "desc": "Each participant sketches a widget from their perspective. The widget will be incorporated with an optical illusion, thus challenging the competitor under the time limit. Last half an hour includes a surprise.",
             "name": "DELINEATE -the- DOODAD",
-            "id": 1,
-            "category":  "fine-art-events"
+            "id": 1
+    
 },
 
 {
@@ -69,12 +70,13 @@ module.exports = {
             "name": "Mandala workshop",
             "id": 4
 }],
-        "img": "https://imgur.com/3xh0leT.jpg",
+       
         "name": "Fine Arts"
     },
     "quiz-events": {
         "desc": "",
-        "link": "",
+        "link": "/ticket#quiz-events_5",
+        "img": "https://imgur.com/YzV1wP4.jpg",
         "events": [{
             "fee": ["₹150"],
             "prize": ["First Prize: ₹6000", "Second Prize: ₹3000"],
@@ -159,12 +161,13 @@ module.exports = {
             "name": "SpEnt Quiz ",
             "id": 9
 }],
-        "img": "https://imgur.com/YJEoa7P.jpg",
+      
         "name": "Quiz Events"
     },
     "western-dance-events": {
         "desc": "",
-        "link": "",
+        "link": "/ticket#western-dance-events_10",
+        "img": "https://imgur.com/GAlZySb.jpg",
         "events": [{
             "fee": ["₹800"],
             "prize": ["First Prize: ₹12000", "Second Prize: ₹8000"],
@@ -278,12 +281,13 @@ module.exports = {
 
 
 ],
-        "img": "https://imgur.com/pLr6UkF.jpg",
+       
         "name": "Dance"
     },
     "tech-events": {
         "desc": "",
-        "link": "",
+        "link": "/ticket#tech-events_16",
+        "img": "https://imgur.com/7QjEBG8.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
@@ -364,12 +368,13 @@ module.exports = {
             "name": "Crack the Code",
             "id": 20
 }],
-        "img": "https://imgur.com/UQKlWgi.jpg",
+     
         "name": "Tech Events"
     },
     "western-music-events": {
         "desc": "",
-        "link": "",
+        "link": "/ticket#western-music-events_21",
+        "img": "https://imgur.com/0Ob52cO.jpg",
         "events": [{
             "fee": ["₹150"],
             "prize": ["First Prize: ₹3000", "Second Prize: ₹1500"],
@@ -440,12 +445,13 @@ module.exports = {
 }
 
 ],
-        "img": "https://imgur.com/LUlmemY.jpg",
+       
         "name": "Western Music"
     },
     "photography": {
         "desc": "",
-        "link": "",
+        "link": "/ticket#photography_25",
+        "img": "https://imgur.com/4BjJs8O.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": [],
@@ -457,7 +463,7 @@ module.exports = {
                 ["Aditya Belvadi", "9663110528"], ["Jayanth", "9176981769"]
             ],
             "link": "",
-            "rnr": [""],
+            "rnr": [],
             "desc": "PHOTOSTAGE is a photography symposium where established speakers in the field of photography, videography/ film making will come and share their knowledge and experiences with the crowd. Speakers come from various genres of photography including wildlife, Macro, Astro, Portrait, Wedding, Product, Documentary etc.",
             "name": "PHOTO STAGE 2019",
             "id": 25
@@ -494,12 +500,13 @@ module.exports = {
             "name": "PANORAMA 2019",
             "id": 27
 }],
-        "img": "https://imgur.com/Q8vngIQ.jpg",
+       
         "name": "Photography"
     },
     "literary-events": {
         "desc": "",
-        "link": "",
+        "link": "/ticket#literary-events_28",
+        "img": "https://imgur.com/wGldrrU.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹4000", "Second Prize: ₹2000"],
@@ -548,21 +555,6 @@ module.exports = {
             "name": "FANDOM QUIZ",
             "id": 30
 },{
-            "fee": ["₹100"],
-            "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
-            "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
-            "contacts": [
-                ["Jayanth N", "9176981769"], ["Niharika S", "9686438602"]
-            ],
-            "link": "",
-            "rnr": ["Teams shall consist of max 2 persons.", "Written prelims will be followed by finals.", "Use of Internet is prohibited.", "Quizmasters decision is final.", "Cross college teams are not allowed.","3 teams per college.","BMS teams not allowed.","On spot registrations are not available."],
-            "desc": "An exciting quiz based on books, movies, comics and TV shows",
-            "name": "FANDOM QUIZ",
-            "id": 31
-},{
     "fee": ["₹150"],
     "prize": ["First Prize: ₹3000", "Second Prize: ₹1500"],
     "img": "",
@@ -598,12 +590,13 @@ module.exports = {
 }
 
 ],
-        "img": "https://imgur.com/Bs2SPpJ.jpg",
+       
         "name": "Literary Events"
     },
     "math-events": {
         "desc": "",
-        "link": "",
+        "link": "/ticket#math-events_34",
+        "img": "https://imgur.com/M32dW0R.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
@@ -652,12 +645,13 @@ module.exports = {
             "name": "Infinite aMAZE",
             "id": 36
 }],
-        "img": "https://imgur.com/c2UNAZa.jpg",
+       
         "name": "Math Events"
     },
     "eastern-events": {
         "desc": "",
-        "link": "",
+        "link": "/ticket#eastern-events_37",
+        "img": "https://imgur.com/nSOmJtj.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
@@ -761,12 +755,13 @@ module.exports = {
 }
 
 ],
-        "img": "https://imgur.com/YLk5ryK.jpg",
+       
         "name": "Eastern Music"
     },
     "chiranthana": {
         "desc": "",
-        "link": "",
+        "link": "/ticket#chiranthana_999",
+        "img": "https://imgur.com/WGn8ZmE.jpg",
         "events": [{
             "fee": ["₹400"],
             "prize": ["First Prize: ₹4000", "Second Prize: ₹2000"],
@@ -783,12 +778,13 @@ module.exports = {
             "name": "ಚರ್ಚಾಸ್ಪರ್ಧೆ (Kannada debate)",
             "id": 999
 }],
-        "img": "https://imgur.com/JUoqYWt.jpg",
+       
         "name": "Chiranthana"
     },
     "fashion": {
         "desc": "",
-        "link": "",
+        "link": "/ticket#fashion_43",
+        "img": "https://imgur.com/bHPf8vR.jpg",
         "events": [{
             "fee": ["₹1500"],
             "prize": ["First Prize: ₹25000", "Second Prize: ₹10000"],
@@ -807,12 +803,13 @@ module.exports = {
 }
 
 ],
-        "img": "https://imgur.com/Jw7calp.jpg",
+       
         "name": "Fashion"
     },
     "entrepreneurship-events": {
         "desc": "",
-        "link": "",
+        "link": "/ticket#entrepreneurship-events_44",
+        "img": "https://imgur.com/VAWyWZH.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹4000", "Second Prize: ₹1500"],
@@ -861,12 +858,13 @@ module.exports = {
             "name": "Labyrinth ",
             "id": 46
 }],
-        "img": "https://imgur.com/nzvwmYt.jpg",
+        
         "name": "Entrepreneurship"
     },
     "respawn-gaming": {
         "desc": "",
-        "link": "",
+        "img": "https://imgur.com/ozAiKua.jpg",
+        "link": "/ticket#respawn-gaming_47",
         "events": [{
             "fee": [],
             "prize": ["First Prize: ₹1000"],
@@ -939,20 +937,21 @@ module.exports = {
             "time": "",
             "venue": "",
             "contacts": [
-                ["Vinayak", "72594 12248"], ["", ""]
+                ["Vinayak", "7259412248"]
             ],
             "link": "",
-            "rnr": [""],
+            "rnr": [],
             "desc": "Experience Virtual Reality Simulation in real time. Available Simulation: Roller Coaster Ride, Sword Fighting, Balloon Jump, FPS Shooters.",
             "name": "VR BASED Experience",
             "id": 51
 }],
-        "img": "https://imgur.com/TWGWwK9.jpg",
+       
         "name": "Gaming"
     },
     "mountaineering": {
         "desc": "",
-        "link": "",
+        "link": "/ticket#mountaineering_52",
+        "img": "https://imgur.com/uhccX2f.jpg",
         "events": [{
             "fee": ["₹100"],
             "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
@@ -1090,12 +1089,13 @@ module.exports = {
             "name": "Jummaring",
             "id": 59
 }],
-        "img": "https://imgur.com/txuEC3J.jpg",
+      
         "name": "Mountaineering"
     },
     "theatre-events": {
         "desc": "",
-        "link": "",
+        "link": "/ticket#theatre-events_60",
+        "img": "https://imgur.com/1zGyHhl.jpg",
         "events": [{
             "fee": ["₹800"],
             "prize": ["First Prize: ₹8000", "Second Prize: ₹5000"],
@@ -1148,14 +1148,15 @@ module.exports = {
 }
 
           ],
-        "img": "https://imgur.com/59SbfVG.jpg",
+       
         "name": "Theatre"
     },
     "informal-events": {
         "desc": "",
         "link": "",
+        "img": "https://imgur.com/lpm1IGm.jpg",
         "events": [],
-        "img": "https://imgur.com/wUF56tS.jpg",
+       
         "name": "Informal"
     }
 };

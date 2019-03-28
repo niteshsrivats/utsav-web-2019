@@ -68,11 +68,6 @@
                 <div class="col-12">
                     <div class="entry-header">
                         <h2 class="entry-title">All Events</h2>
-
-                        <ul class="breadcrumbs flex align-items-center">
-                            <li><a href="#">Home</a></li>
-                            <!-- <li>Buy tickets</li> -->
-                        </ul><!-- .breadcrumbs -->
                     </div><!-- entry-header -->
                 </div><!-- col-12 -->
 
@@ -109,7 +104,7 @@
 
 
 <% Object.keys(json).forEach(function(category){ %>
-                                        <h3 id="<%= category %>" class="entry-title active flex justify-content-between"><%= json[category].name %><span class="arrow-r"></span></h3>
+                                        <h3 id="<%= category %>" info="<%= json[category].name %>"class="entry-title active flex justify-content-between"><%= json[category].name %><span class="arrow-r"></span></h3>
 
                                         <div class="entry-content">
                                             <p>
@@ -180,28 +175,42 @@
                                   <p style="font-size: 13px;"><%= event.desc %></p>
                                 <div class="flex flex-wrap justify-content-between">
                                     <div class="single-event-details">
+
+                                        <% if(event.date) { %>
                                         <div class="single-event-details-row">
                                             <label style="margin-top: 10px;">Date:</label>
                                             <p class="event-details-inner">April <%= event.date %></p>
                                         </div>
+                                        <% } %>
+
+                                        <% if(event.time) { %>
 
                                         <div class="single-event-details-row">
                                             <label>Time:</label>
                                             <p class="event-details-inner"><%= event.time %></p>
                                         </div>
 
+                                        <% } %>
 
+                                        <% if(event.venue) { %>
                                         <div class="single-event-details-row">
                                             <label>Venue:</label>
                                             <p class="event-details-inner"><%= event.venue %></p>
                                         </div>
+                                        <% } %>
+
+                                        <% if(event.fee.length) { %>
 
                                         <div class="single-event-details-row">
                                             <label>Registration Fee:</label>
-                                            <p class="event-details-inner"><%= event.fee %></p>
+                                             <% event.fee.forEach(function(f){ %>
+                                            <p class="event-details-inner"><%= f %></p>
+                                            <% }); %>
                                         </div>
 
+                                        <% } %>
 
+                                        <% if(event.prize.length) { %>
                                         <div class="single-event-details-row">
                                             <label>Prize:</label>
                                                 <% event.prize.forEach(function(p){ %>
@@ -210,6 +219,9 @@
 
                                             <% }); %>
                                         </div>
+                                        <% } %>
+
+                                        <% if(event.contacts.length!=0) { %>
 
                                         <div class="single-event-details-row">
                                             <label>Contacts:</label>
@@ -219,6 +231,7 @@
 
                                             <% }); %>
                                         </div>
+                                        <% } %>
                                     </div>
 
                                <!--      <div class="single-event-map">
@@ -230,6 +243,7 @@
                             <div id="tab_venue" class="tab-content">
                                <!-- <h3 style="color: #fff; background-color: #121212; padding: 10px;"><%= event.name %></h3> -->
                               <!--   <p>Curabitur venenatis efficitur lorem sed tempor. Integer aliquet tempor cursus. Nullam vestibulum convallis risus vel condimentum. Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt. Morbi sodales, dolor id ultricies dictum, diam odio tempor purus, at ultrices elit nulla ac nisl. Vestibulum enim sapien, blandit finibus elit vitae, venenatis tempor enim. </p> -->
+                               <% if(event.rnr.length != 0) {%>
                                 <ol>
 
                                         <% event.rnr.forEach(function(r){ %>
@@ -240,9 +254,10 @@
                                     
                                    
                                 </ol>
+                                <% } else { %>
                                 
-                                
-                                
+                                <center><p>N/A</p></center>
+                                <% }  %>
                                 
                                 
                             </div><!-- .tab-content -->

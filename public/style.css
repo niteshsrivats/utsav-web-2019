@@ -2159,3 +2159,84 @@ div.angrytext {
 
     
 }
+
+
+.student-card{
+    width: 18rem; background: #212121; color: #fff; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /*display: inline-block;*/
+    /*margin-right:10px;*/
+}
+.student-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+    /*transform: translate(0px, 5px);*/
+}
+
+
+
+.our-team{
+    position: relative;
+    margin: 35px 0;
+}
+.our-team  img{
+    width:100%;
+    height: auto;
+    z-index:1;
+    transform:translateY(0px);
+    transition: all 0.50s ease;
+}
+.our-team img{
+    /*top: -60px;*/
+    transform:translateY(-60px);
+}
+.our-team .team-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    opacity:0;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    background:#212121;
+    transform:translateY(0px);
+    transition: all 0.50s ease-in-out 0s;
+}
+.our-team .team-content{
+    transform:translateY(20px);
+    opacity:1;
+}
+.our-team .team-title{
+    font-size:19px;
+    color:#fff;
+    margin:0;
+    letter-spacing:1px;
+}
+.our-team .team-title small{
+    display: block;
+    color:#e5e5e5;
+    margin:1% 0 3% 0;
+    font-size:12px;
+    text-transform: capitalize;
+}
+.our-team .social-link{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.our-team .social-link li{
+    display: inline-block;
+    margin-right:2%;
+}
+.our-team .social-link li a{
+    color:#444;
+    transition: all 0.50s ease;
+}
+.our-team .social-link li a:hover{
+    color: #e143eb;
+}
+@media screen and (max-width: 767px){
+    .our-team{
+        margin-bottom: 15%;
+    }
+}

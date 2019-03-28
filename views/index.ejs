@@ -273,10 +273,10 @@ This multi event dance face-off is unlike anything else. See some of the best da
 
                             <% Object.keys(json).forEach(function(category){ %>
                             <div class="col-6 col-md-4 col-lg-3 artist-single">
-                                <a href="#">
+                                <a href="<%= json[category].link %>">
                                 <figure class="featured-image">
                                     
-                                   <div> <img src="images/image-1.jpg" alt=""> </div>
+                                   <div> <img src="<%= json[category].img %>" alt=""> </div>
                                    <!-- <div class="box-link mobile-category"><img src="images/box.jpg" alt=""> </div> -->
                                     <!-- <nav> -->
 
@@ -293,7 +293,7 @@ This multi event dance face-off is unlike anything else. See some of the best da
                                 
                                 </figure><!-- featured-image -->
 
-                                <h2><%= json[category].name %></h2>
+                                <a href="<%= json[category].link %>"><h2><%= json[category].name %></h2></a>
                             </a>
                             </div><!-- artist-single -->
 
