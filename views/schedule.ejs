@@ -56,7 +56,7 @@
       </div>
     </div> -->
 
-    <div id="add_events" class="tabcontent">
+    <div id="add_events">
       <div class="timetable" id="day1"></div>
     </div>
     <!-- <div id="remove_events" class="tabcontent">
@@ -88,4 +88,77 @@
   
         var renderer = new Timetable.Renderer(timetable12);
         renderer.draw('#day1');
+      </script>
+
+      <script>
+        var timetable13 = new Timetable();
+
+        timetable13.setScope(8,21)
+        timetable13.addLocations(['Main Stage', 'Indoor Stadium', 'BMS Auditorium', 'Law College Arena', 'New Auditorium-1', 'CR Auditorium-2', 'EC Seminar Hall', 'MV Hall', 'BSN Hall', 'MCA Lab', 'MV Hall', 'MESH', 'CAD Lab', 'Mech & EC Block Passage', 'Gopi Wall', 'Coffee Kuteera', 'CR 209/210', 'CR 302/303', 'CR 304', 'CR 305', 'CR 307/308', 'CR 401/402', 'CR 403/404', 'CR 406/407', 'CR 408']);
+        
+        timetable13.addEvent('Battle of Bands', 'Main Stage', new Date(2018,4,13,12,00), new Date(2018,4,13,14,30));
+        timetable13.addEvent('Folk Dance', 'Main Stage', new Date(2018,4,13,14,30), new Date(2018,4,13,15,00));
+        timetable13.addEvent('ESH', 'Main Stage', new Date(2018,4,13,15,00), new Date(2018,4,13,17,00));
+        timetable13.addEvent('Fashion Show', 'Main Stage', new Date(2018,4,13,17,00), new Date(2018,4,13,20,00));
+        timetable13.addEvent('EDM Night', 'Main Stage', new Date(2018,4,13,18,00), new Date(2018,4,13,21,00));
+
+        timetable13.addEvent('Solo Dance', 'Indoor Stadium', new Date(2018,4,13,10,00), new Date(2018,4,13,13,00));
+        timetable13.addEvent('Mad Ads', 'Indoor Stadium', new Date(2018,4,13,14,00), new Date(2018,4,13,17,00));
+
+        timetable13.addEvent('Debate', 'BMS Auditorium', new Date(2018,4,13,09,00), new Date(2018,4,13,17,00));
+        
+        timetable13.addEvent('General Quiz', 'New Auditorium-1', new Date(2018,4,13,09,00), new Date(2018,4,13,13,30));
+        timetable13.addEvent('Western Vocals Solo', 'New Auditorium-1', new Date(2018,4,13,14,00), new Date(2018,4,13,14,30));
+        
+        timetable13.addEvent('Infinite aMAZE', 'CR 307/308', new Date(2018,4,13,10,00), new Date(2018,4,13,12,30));
+
+        timetable13.addEvent('Rasaprashne', 'EC Seminar Hall', new Date(2018,4,13,10,00), new Date(2018,4,13,12,00));
+        timetable13.addEvent('Pitch, Please', 'EC Seminar Hall', new Date(2018,4,13,12,30), new Date(2018,4,13,15,00));
+
+        timetable13.addEvent('Counter Strike', 'CR 401/402', new Date(2018,4,13,09,00), new Date(2018,4,13,17,00));
+
+        timetable13.addEvent('Code-a-Thon', 'MCA Lab', new Date(2018,4,13,10,00), new Date(2018,4,13,13,00));
+        timetable13.addEvent('Capture the Flag', 'MCA Lab', new Date(2018,4,13,14,00), new Date(2018,4,13,19,00));
+
+        timetable13.addEvent('Battle of Brains', 'CR 302/303', new Date(2018,4,13,14,00), new Date(2018,4,13,17,00));
+
+        timetable13.addEvent('Mandala Workshop', 'CR 304', new Date(2018,4,13,10,00), new Date(2018,4,13,12,00));
+
+        timetable13.addEvent('We Complete (Relay Painting)', 'CR 305', new Date(2018,4,13,13,00), new Date(2018,4,13,15,00));
+
+
+        timetable13.addEvent('FIFA Dream Team', 'MV Hall', new Date(2018,4,13,10,00), new Date(2018,4,13,13,00));
+        timetable13.addEvent('Mookabhinanya', 'MV Hall', new Date(2018,4,13,13,30), new Date(2018,4,13,15,30));
+
+        timetable13.addEvent('FIFA 19', 'CR 403/404', new Date(2018,4,13,09,00), new Date(2018,4,13,17,00));
+
+        timetable13.addEvent('Potpourri', 'CR 209/210', new Date(2018,4,13,09,00), new Date(2018,4,13,13,00));
+
+        timetable13.addEvent('Instrumental Solo Non-Percussion', 'CR 406/407', new Date(2018,4,13,10,00), new Date(2018,4,13,14,00));
+        timetable13.addEvent('PUBG', 'CR 406/407', new Date(2018,4,13,15,00), new Date(2018,4,13,18,00));
+
+        timetable13.addEvent('Instrumental Solo Percussion', 'MESH', new Date(2018,4,13,10,00), new Date(2018,4,13,14,00));
+        timetable13.addEvent('Vaaksamara', 'MESH', new Date(2018,4,13,15,30), new Date(2018,4,13,18,00));
+
+        timetable13.addEvent('Rappeling', 'Law College Arena', new Date(2018,4,13,09,00), new Date(2018,4,13,16,00));
+
+        timetable13.addEvent('Spent Quiz', 'BSN Hall', new Date(2018,4,13,14,00), new Date(2018,4,13,17,00));
+
+        timetable13.addEvent('Online Treasure Hunt', 'CAD Lab', new Date(2018,4,13,14,00), new Date(2018,4,13,18,00));
+
+        timetable13.addEvent('Virtual Reality', 'CR 408', new Date(2018,4,13,12,00), new Date(2018,4,13,16,00));
+
+        timetable13.addEvent('Obstacle Cycling', 'Mech & EC Block Passage', new Date(2018,4,13,09,00), new Date(2018,4,13,16,00));
+
+        timetable13.addEvent('Climbing (Competitive/Non-Competitive', 'Gopi Wall', new Date(2018,4,13,09,00), new Date(2018,4,13,16,00));
+
+        timetable13.addEvent('Photo Stage/Panorama', 'CR Auditorium-2', new Date(2018,4,13,09,00), new Date(2018,4,13,13,00));
+        timetable13.addEvent('Instrumental Ensemble', 'CR Auditorium-2', new Date(2018,4,13,14,00), new Date(2018,4,13,17,00));
+
+        timetable13.addEvent('Zipline', 'Law College Arena', new Date(2018,4,13,09,00), new Date(2018,4,13,16,00));
+
+        timetable13.addEvent('Jummaring', 'Coffee Kutera', new Date(2018,4,13,09,00), new Date(2018,4,13,16,00));
+
+        var renderer = new Timetable.Renderer(timetable13);
+        renderer.draw('#day2');
       </script>
