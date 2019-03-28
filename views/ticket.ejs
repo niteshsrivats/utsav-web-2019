@@ -135,29 +135,9 @@
                                     </div>
                                 </div><!-- col-5 -->
 
-                                <!-- <div class="col-12 col-lg-7 mt-5 mt-lg-0"> -->
+                                
                 <div class="col-12 col-lg-7 mt-5 mt-lg-0">
                     
-
-
-
-
-<!--                          "fee": ["?100"],
-            "prize": ["First Prize ?1500", "Second Prize ?1000"],
-            "img": "",
-            "date": 14,
-            "time": "10 AM to 1 PM",
-            "venue": "CR 303",
-            "contacts": [
-                ["Ajay Singh","8867981960"],["Kalpan Punamiya","9099558834"]
-            ],
-            "link": "",
-            "rnr": ["Individual Event", "Race Against time (1 hour and 30 min). Countdown", "Only drawing sheets will be provided", "It is a strict sketching event. Any form of sketching is accepted (pencil, pen, color pencils).", "No painting.", "Any form of digital aid will not be tolerated.", "The widget is same for all. But from different perspective.", "Semicircular (opera sitting) seating around the widget.", "Total time duration 2 hours.", "Note: Participants are supposed to report at least 30 minutes prior to the event"],
-            "desc": "Each participant sketches a widget from their perspective. The widget will be incorporated with an optical illusion, thus challenging the competitor under the time limit. Last half an hour includes a surprise.",
-            "name": "DELINEATE -the- DOODAD",
-            "id": 1,
-            "category":  "fine-art-events"
- -->
 
 
 
@@ -176,7 +156,6 @@
                         <div class="tabs-container" >
 
                             <div id="tab_details" class="tab-content">
-                                 <!-- <h3 style="color: #fff; background-color: #121212; padding: 10px;"><%= event.name %></h3> -->
                                     
 
                       
@@ -188,7 +167,13 @@
                                         <% if(event.date) { %>
                                         <div class="single-event-details-row">
                                             <label style="margin-top: 10px;">Date:</label>
-                                            <p class="event-details-inner">April <%= event.date %></p>
+
+                                            <% if(event.date==-1) { %>
+                                            <p class="event-details-inner">April 13<sup>th</sup> & April 14<sup>th</sup><%= event.date %></p>
+                                               <% } else{%>
+                                            <p class="event-details-inner">April <%= event.date %><sup>th</sup></p>
+
+                                               <% } %>
                                         </div>
                                         <% } %>
 

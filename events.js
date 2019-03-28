@@ -1141,7 +1141,7 @@ module.exports = {
             "fee": ["₹50"],
             "prize": [],
             "img": "",
-            "date": 13,
+            "date": -1,
             "time": "9 AM to 4 PM",
             "venue": "Coffee Kutira",
             "contacts": [
