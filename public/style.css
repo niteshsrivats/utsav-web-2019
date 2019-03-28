@@ -2243,7 +2243,7 @@ div.angrytext {
 }
 
 #cover {
-    background: url("https://smallenvelop.com/demo/simple-pre-loader/images/loader-64x/Preloader_2.gif") no-repeat scroll center center #FFF;
+    background: url("/images/spinner.gif") no-repeat scroll center center #000;
     position: absolute;
     height: 100%;
     width: 100%;
