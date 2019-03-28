@@ -2187,7 +2187,7 @@ div.angrytext {
 }
 .our-team img{
     /*top: -60px;*/
-    transform:translateY(-60px);
+    /* transform:translateY(-60px); */
 }
 .our-team .team-content{
     position: absolute;
