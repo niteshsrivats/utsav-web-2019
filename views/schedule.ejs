@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116236740-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-116236740-2');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="brown">
+    <meta name="apple-mobile-web-app-status-bar-style" content="brown">
+      <title>SCHEDULE | UTSAV</title>
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="../icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="../icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="../icons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="../icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="../icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../icons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="../icons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="../icons/&nbsp;"/>
+    <meta name="msapplication-TileColor" content="../icons/#FFFFFF" />
+    <meta name="msapplication-TileImage" content="../icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="../icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="../icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="../icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="../icons/mstile-310x310.png" /> -->
+    <link rel="stylesheet" href="../schedule/css/timetablejs.css">
+    <!-- <link rel="stylesheet" href="../schedule/css/demo.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  </head>
+  <body>
+    <!-- <div class="navbar fixed-top">
+      <div class="navbar-brand">
+        <a href="/">Back to Home</a>
+      </div>
+    </div> -->
+
+    <!-- <div class="tab">
+      <div class="container">
+        <div class="row text-center">
+          <button class="tablinks" onclick="openCity(event, 'add_events')" id="defaultOpen">13th April</button>
+          <button class="tablinks" onclick="openCity(event, 'remove_events')" >14th April</button>
+          <button class="tablinks" onclick="openCity(event, 'edit_events')">15th April</button>
+        </div>
+      </div>
+    </div> -->
+
+    <div id="add_events" class="tabcontent">
+      <div class="timetable" id="day1"></div>
+    </div>
+    <!-- <div id="remove_events" class="tabcontent">
+      <div class="timetablea" id="day2"></div>
+    </div>
+    <div id="edit_events" class="tabcontent">
+      <div class="timetablea" id="day3"></div>
+    </div> -->
+
+    <script src="../schedule/js/timetable.js"></script>
+
+    <script>
+        var timetable12 = new Timetable();
+  
+        timetable12.setScope(8,21)
+        timetable12.addLocations(['Main Stage', 'Indoor Stadium', 'BMS Auditorium', 'Law College Arena','CR 301/302']);
+        
+        timetable12.addEvent('Inauguration', 'Main Stage', new Date(2018,4,12,17,00), new Date(2018,4,12,18,30));
+        timetable12.addEvent('Group Dance', 'Main Stage', new Date(2018,4,12,18,30), new Date(2018,4,12,21,00));
+  
+        timetable12.addEvent('Anthharmukhi', 'Indoor Stadium', new Date(2018,4,12,16,15), new Date(2018,4,12,17,00));
+        timetable12.addEvent('Mr. Utsav', 'Indoor Stadium', new Date(2018,4,12,18,30), new Date(2018,4,12,21,00));
+  
+        timetable12.addEvent('Fandom Quiz', 'BMS Auditorium', new Date(2018,4,12,9,00), new Date(2018,4,12,13,00));
+        
+        timetable12.addEvent('Adrenaline Junkyard', 'Law College Arena', new Date(2018,4,12,9,00), new Date(2018,4,12,16,00));
+        
+        timetable12.addEvent('Creative Writing', 'CR 301/302', new Date(2018,4,12,10,00), new Date(2018,4,12,13,00));
+  
+        var renderer = new Timetable.Renderer(timetable12);
+        renderer.draw('#day1');
+      </script>
