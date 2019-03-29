@@ -3,7 +3,6 @@ var http = require('http');
 var path = require('path');
 var logger = require("morgan");
 var events = require('./events');
-var team = require('./team');
 var gallery = require('./gallery');
 var app = express();
 const PORT = process.env.PORT || 80
@@ -33,12 +32,11 @@ app.get('/ticket', function(req, res) {
     res.render("ticket");
 });
 
-app.get('/tt', function(req, res) {
-    res.render("tt");
+app.get('/event-schedule', function(req, res) {
+    res.render("event-schedule");
 });
 
 app.get('/team', function(req, res) {
-    // app.locals.gallery = gallery;
     res.render("team");
 });
 
