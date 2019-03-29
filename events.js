@@ -1132,7 +1132,7 @@ module.exports = {
             "link": "",
             "rnr": ["The participants should abide by the rule book provided on the spot, and the decision made by the person incharge is final and the participants should not argue.", "Note: cycles will be provided"],
             "desc": " This is an event to show case your cycling skills and win, the participant has to clear the number of cycling obstacles, so the best will the one who takes the least time.",
-            "name": "OBSTACLE CYCLE (NON-COMPETITIVE",
+            "name": "OBSTACLE CYCLE (NON-COMPETITIVE)",
             "id": 58
 },
 
@@ -1246,7 +1246,7 @@ module.exports = {
             "time": "",
             "venue": "",
             "contacts": [
-                ["Smrithi", "9886874179"]
+                ["Namratha R.", "8147264156"]
             ],
             "link": "",
             "rnr": ["The player must not spill any food.",
