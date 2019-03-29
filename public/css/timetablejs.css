@@ -25,17 +25,38 @@
 
 .timetable>aside {
 	flex: none;
+	min-width: 230px;
 	max-width: 30%;
 	padding: 0!important;
 	margin-top: 46px;
 	border-right: 5px solid transparent;
-	position: relative
+	position: relative;
+	margin-bottom: 40px;
+}
+
+#ttable12>aside:before{
+	padding: 15px;
+	content: "April 12";
+	font-size: 13px;
+}
+
+#ttable13>aside:before{
+	padding: 15px;
+	content: "April 13";
+	font-size: 13px;
+}
+
+#ttable14>aside:before{
+	padding: 15px;
+	content: "April 14";
+	font-size: 13px;
 }
 
 .timetable>aside li {
 	padding: 0 15px;
 	background-color: #efefef;
-	line-height: 46px
+	line-height: 46px;
+	font-size: 12px;
 }
 
 .timetable>aside li:not(:last-of-type) {
@@ -54,7 +75,7 @@
 .timetable>aside:before {
 	content: "";
 	display: block;
-	background-color: #000;
+	background-color: #1e1a19;
 	height: 46px;
 	position: relative;
 	margin-top: -46px;
@@ -85,7 +106,7 @@
 	z-index: 3;
 	width: 100%;
 	overflow: hidden;
-	background-color: #000;
+	background-color: #1e1a19;
 	transform-style: preserve-3d
 }
 
@@ -176,8 +197,8 @@
 }
 
 .timetable .time-entry {
-	background-color: #00d0ff;
-	transition: background-color .2s;
+	background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+	transition:  0.2s;
 	height: 45px;
 	display: block;
 	position: absolute;
@@ -186,7 +207,7 @@
 	white-space: normal;
 	overflow: hidden;
 	color: #000;
-	border: 1px solid #00d0ff;
+	border: 1px solid white;
 	transform-style: preserve-3d
 }
 
@@ -194,18 +215,23 @@
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-	display: block
+	display: block;
+	letter-spacing: -0.5px;
 }
 
 .timetable .time-entry:hover {
-	background-color: #212121
+	background-color: #212121;
+	color: white;
+	font-weight: bolder;
 }
 
 .time-label{
-	color: #fff;
+	color: #e5e5e5;
+	font-size: 12px;
 }
 
 .row-heading{
 	color: #000;
 }
+
 

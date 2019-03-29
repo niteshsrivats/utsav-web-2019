@@ -94,7 +94,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="entry-header">
-                        <h2 class="entry-title">Team</h2>
+                        <h2 class="entry-title">Schedule</h2>
 
 
                     </div><!-- entry-header -->
@@ -107,16 +107,9 @@
 
     <div class="main-content">
 
-       <div class="hero-unit">
-      <h1>Timetable.js demo</h1>
-      <p>Vanilla javascript plugin for building nice responsive timetables. More info on <a href="https://github.com/Grible/timetable.js" target="_blank">Github</a>.</p>
+       <div class="hero-unit" style="margin-bottom: 50px;">
+      <p class="text-center">Don't miss out on any of the events. Catch this year's <b>schedule</b> here!</p>
     </div>
-
-
-
-
-
-
 
 
 
@@ -125,11 +118,6 @@
     <div class="timetable" id="ttable12"></div>
     <div class="timetable" id="ttable13"></div>
     <div class="timetable" id="ttable14"></div>
-
-
-
-
-
 
 
 
@@ -191,16 +179,23 @@
     <script type='text/javascript' src='js/circle-progress.min.js'></script>
     <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
     <script type='text/javascript' src='js/custom.js'></script> -->
+    <!-- <script type='text/javascript' src='js/jquery.js'></script> -->
 
-    <script src="js/timetable.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+
+
+    <script type='text/javascript' src="js/timetable.js"></script>
+    <script type='text/javascript' src='js/custom.js'></script>
 
     <script>
-
-
-
+        
        var timetable12 = new Timetable();
   
-        timetable12.setScope(8,3);
+        timetable12.setScope(8,22);
         timetable12.useTwelveHour();
         timetable12.addLocations(['Main Stage', 'Indoor Stadium', 'BMS Auditorium', 'Law College Arena','CR 301/302']);
         
@@ -222,7 +217,8 @@
 
 
         var timetable13 = new Timetable();
-        timetable13.setScope(8,3)
+        timetable13.setScope(8,22)
+        timetable13.useTwelveHour();
         timetable13.addLocations(['Main Stage', 'Indoor Stadium', 'BMS Auditorium', 'Law College Arena', 'New Auditorium-1', 'CR Auditorium-2', 'EC Seminar Hall', 'MV Hall', 'BSN Hall', 'MCA Lab', 'MESH', 'CAD Lab', 'Mech & EC Block Passage', 'Gopi Wall', 'Coffee Kuteera', 'CR 209/210', 'CR 302/303', 'CR 304', 'CR 305', 'CR 307/308', 'CR 401/402', 'CR 403/404', 'CR 406/407', 'CR 408']);
         
         timetable13.addEvent('Battle of Bands', 'Main Stage', new Date(2018,4,13,12,0), new Date(2018,4,13,14,30));
@@ -270,7 +266,8 @@
 
 
          var timetable14 = new Timetable();
-  timetable14.setScope(8,3);
+  timetable14.setScope(8,22);
+  timetable14.useTwelveHour();
   timetable14.addLocations(['Main Stage', 'Indoor Stadium', 'BMS Auditorium', 'Law College Arena', 'New Auditorium-1', 'FDC Hall', 'CR Auditorium-2', 'EC Seminar Hall', 'MV Hall', 'BSN Hall', 'C Bench', 'Rock Garden', 'MESH', 'CAD Lab', 'Mech & EC Block Passage', 'Gopi Wall', 'Coffee Kuteera', 'Infront of PG Block', 'CR 303', 'CR 307/308', 'CR 401/402', 'CR 403', 'CR 406', 'CR 408']);
   
   timetable14.addEvent('Sound Check', 'Main Stage', new Date(2018,4,14,9,0), new Date(2018,4,14,16,0));
@@ -308,6 +305,9 @@
   timetable14.addEvent('Jummaring', 'Coffee Kuteera', new Date(2018,4,14,9,0), new Date(2018,4,14,16,0));
   var renderer = new Timetable.Renderer(timetable14);
   renderer.draw('#ttable14');
+
+
+
     </script>
 </body>
 
