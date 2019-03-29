@@ -476,7 +476,6 @@ module.exports = {
             "time": "",
             "venue": "",
             "contacts": [
-                ["", ""], ["", ""]
             ],
             "link": "",
             "rnr": ["The contest is open to all students", "Photos submitted must be original. Plagiarism will not be tolerated.", "There will be two themes based on UTSAV theme.", "There is no entry fee", "The entries must adhere to contest theme", "A maximum of two entries per theme is allowed", "The highest available resolution of the picture(s) must be submitted.", "Subtle Post processing is allowed. If image is processed, original must be mailed along with the edited one.", "Judges decision is final.", "Mail your queries to bmsphotographyclub@gmail.com", "All the entries will be showcased in an album on Facebook. The link will be sent along with the acknowledgement of entry", "“Likes” received by the entries in the album will NOT play a role in the judging process."],
@@ -492,7 +491,7 @@ module.exports = {
             "time": "",
             "venue": "",
             "contacts": [
-                ["Gautham M K", "9113081397"], ["", ""]
+                ["Gautham M K", "9113081397"]
             ],
             "link": "",
             "rnr": ["The contest is open to all students", "Theme will be given on spot", "The participant must declare the camera he/she is using.", "Only subtle editing is allowed. The originals must be submitted too.", "The participant must report by 1pm on 12th April 2019 and the contest ends at 4pm on 13th April 2019", "The submitted images must be taken within the college campus on the day(s) of the competition.", "The entries must adhere to the contest theme.", "The participant can submit a maximum of two entries.", "Judges decision is final", "Mail your queries to bmsphotographyclub@gmail.com"],
@@ -1256,6 +1255,35 @@ module.exports = {
             "desc": "",
             "name": "Hogathon",
             "id": 69
+},{
+            "fee": [],
+            "prize": [],
+            "img": "",
+            "date": 13,
+            "time": "8 PM to 9 PM",
+            "venue": "Main Stage",
+            "contacts": [
+               
+            ],
+            "link": "",
+            "rnr": [],
+            "desc": "Feel every rhythm and every beat flow through your veins and jump even harder when the beat drops at the EDM night of this year’s UTSAV. Get ready to have your world rocked. See you there! ",
+            "name": "EDM Night",
+            "id": 70
+},{
+            "fee": [],
+            "prize": [],
+            "img": "",
+            "date": 14,
+            "time": "6 PM to 9 PM",
+            "venue": "Main Stage",
+            "contacts": [
+            ],
+            "link": "",
+            "rnr": [],
+            "desc": "Need a break from all the competition? Want to just sit back and listen to some music? Well, here’s Whiplash! Listen to some of the best singers from the many bands performing in this year’s UTSAV! Wave along the crowd, listening to your favourite tunes and sing your worries away! ",
+            "name": "Whiplash",
+            "id": 71
 }],
        
         "name": "Informal"
