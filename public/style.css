@@ -2041,15 +2041,13 @@ div.angrytext {
   /*padding-right: 20px;*/
 }
 
-.slide li {
-}
 
 .slide li a {
     font-weight: 400;
     color : rgba(255,255,255,0.6);
     text-decoration: none;
     text-align: left;
-    padding : 20px 0px 0px 0px;
+    padding : 0px 0px 20px 0px;
     line-height: 20px;
     text-transform: uppercase;
 }
