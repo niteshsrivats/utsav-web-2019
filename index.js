@@ -33,52 +33,14 @@ app.get('/ticket', function(req, res) {
     res.render("ticket");
 });
 
-
-
-
-// app.get('/ticket', function(req, res) {
-//     app.locals.json = events;
-//     res.render("ticket");
-// });
-
-app.get('/schedule', function(req, res) {
-    res.render("schedule");
+app.get('/tt', function(req, res) {
+    res.render("tt");
 });
-
-// app.get('/events/*', function(req, res, next) {
-//     if (events[req.originalUrl.slice(8, req.originalUrl.length)]) {
-//         app.locals.events = events[req.originalUrl.slice(8, req.originalUrl.length)].events;
-//         app.locals.category = events[req.originalUrl.slice(8, req.originalUrl.length)].name;
-//         res.render("events");
-//     } else {
-//         next();
-//     }
-// });
 
 app.get('/team', function(req, res) {
     // app.locals.gallery = gallery;
     res.render("team");
 });
-
-// app.get('/register/*', function(req, res, next) {
-//     var flag = 0;
-//     app.locals.eid = req.originalUrl.slice(10, req.originalUrl.length);
-//     Object.keys(events).forEach(function(key) {
-//         events[key].events.forEach(function(event) {
-//             if (app.locals.eid == event.id) {
-//                 app.locals.ename = event.name;
-//                 app.locals.efee = event.fee[0];
-//                 flag = 1;
-//             }
-//         });
-//     });
-//     if (flag == 1 && app.locals.efee) {
-//         res.render("register");
-//     } else {
-//         next();
-//     }
-
-// });
 
 app.get('/*', function(req, res) {
     res.render("404");

@@ -1,11 +1,18 @@
 
 (function($) {
 
-
+$('html, body').css({
+  'overflow': 'hidden',
+  'height': '100%'
+})
 
 $(window).on('load', function(){
     $('#cover').fadeOut(1000);
-})
+    $('html, body').css({
+  'overflow': 'auto',
+  'height': 'auto'
+});
+});
 
 
     // var h = '';
