@@ -245,6 +245,7 @@ body {
     padding: 220px 0;
     background: url("images/cover.jpg") no-repeat;
     background-size: cover;
+       background-position: center; 
 }
 
 .hero-content .entry-header {
