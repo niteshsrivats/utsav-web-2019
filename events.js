@@ -639,7 +639,8 @@ module.exports = {
                 ["Sneha", "8971902327"], ["Ajith Jain", "9140111854"]
             ],
             "link": "",
-            "rnr": ["Each team should have maximum of two members.", "The event will have two rounds", "The first round will be a math-based quiz that will test logical thinking and arithmetic reasoning skills and it will act as the screening test for the second round.", "The second round will be based on encryption and decryption.", "The participants will have to navigate through a virtual maze to reach the treasure.", "It will be an adventurous navigation in a mathematical frame with interesting twists.", "The first team to get the treasure will emerge as the winner.", "The event will go on for about 2 to 3 hours."],
+            "rnr": ["Each team should have maximum of two members."],
+            // "The event will have two rounds", "The first round will be a math-based quiz that will test logical thinking and arithmetic reasoning skills and it will act as the screening test for the second round.", "The second round will be based on encryption and decryption.", "The participants will have to navigate through a virtual maze to reach the treasure.", "It will be an adventurous navigation in a mathematical frame with interesting twists.", "The first team to get the treasure will emerge as the winner.", "The event will go on for about 2 to 3 hours."],
             "desc": "A virtual maze where you find yourself lost like in the beauty of a mirage. Want to experience this in a mathematical frame? Take your path towards the Infinite aMAZE because you never know how mysteriously your path inside the maze can help you reach the treasure.",
             "name": "Infinite aMAZE",
             "id": 36
