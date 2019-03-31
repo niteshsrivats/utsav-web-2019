@@ -601,7 +601,7 @@ module.exports = {
             "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
             "img": "",
             "date": 14,
-            "time": "10 AM to 2 PM",
+            "time": "10 AM to 1 PM",
             "venue": "MESH hall",
             "contacts": [
                 ["Prajna M", "8123181898"], ["Sowmya Hegde", "9449824854"]
@@ -616,11 +616,11 @@ module.exports = {
             "fee": ["₹100"],
             "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
             "img": "",
-            "date": 12,
+            "date": 13,
             "time": "2 PM to 5 PM",
             "venue": "CR 303",
             "contacts": [
-                ["Arun DK", "7795486844"], ["K V Niranjan Gupta", "974363491"]
+                ["Arun DK", "7795486844"], ["K V Niranjan Gupta", "9743634919"]
             ],
             "link": "",
             "rnr": ["Each team should have maximum of two members."],
@@ -634,7 +634,7 @@ module.exports = {
             "img": "",
             "date": 13,
             "time": "10 AM to 12:30 PM",
-            "venue": "BSN hall",
+            "venue": "C307",
             "contacts": [
                 ["Sneha", "8971902327"], ["Ajith Jain", "9140111854"]
             ],
