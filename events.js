@@ -56,7 +56,7 @@ module.exports = {
 },
 {
             "fee": ["₹200"],
-            "prize": ["First Prize: ₹2000"],
+            "prize": [],
             "img": "",
             "date": 13,
             "time": "10 AM to 12 PM",
@@ -342,7 +342,7 @@ module.exports = {
             "img": "",
             "date": 14,
             "time": "10 AM to 1 PM",
-            "venue": "CAD lab",
+            "venue": "CAD lab, CR3 & CR4",
             "contacts": [
                 ["Jatin Gandhi", "9086722620"], ["Yash Kamal", "8987054269"]
             ],
@@ -377,7 +377,7 @@ module.exports = {
         "img": "images/tC4wc5Y.jpg",
         "events": [{
             "fee": ["₹150"],
-            "prize": ["First Prize: ₹3000", "Second Prize: ₹1500"],
+            "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
             "date": 0,
             "time": "",
@@ -851,7 +851,7 @@ module.exports = {
         "img": "images/cmZcZT4.jpg",
         "events": [{
             "fee": ["₹1500"],
-            "prize": ["First Prize: ₹25000", "Second Prize: ₹10000"],
+            "prize": ["First Prize: ₹30000", "Second Prize: ₹10000"],
             "img": "",
             "date": 13,
             "time": "6:30 PM to 8 PM",
@@ -988,7 +988,17 @@ module.exports = {
                 ["Shubham s", "8867727162"], ["Akshay", "8317363807"]
             ],
             "link": "",
-            "rnr": ["Squad competition ( team of 4 ).", "Map – Erangel", "Participants are requested to download the map beforehand.", "Bring your own earphones.", "Bring Working internet in your mobile"],
+            "rnr": ["Each team can consists of four players. ", 
+"Atleast two player from each team must be present in the venue during the time of the event, it not present the squads will not be eligible for the competition. ", 
+"Physical attachments like triggers, any other attachment is prohibited. ", 
+"Emulators are not allowed, only mobile phones and tabs are allowed. ", 
+"Players can use discord channels provided by the organisers only. ", 
+"The positions of the squads will be based on the points scored by the squads based on points distribution. (The point distribution criteria will be provided in the venue during the time of the event) ", 
+"If any bug happens during the competition, the players have to inform the volunteer so necessary actions will be taken. ", 
+"Cheating is strictly prohibited. As a condition of their participation in PlayerUnknown’s Battleground competition, players agree to refrain from manipulating the game files in any way, using of any unapproved game modifications, programmes, teaming up with other squads or any other methods that gives one an unfair advantage over another player. If found the squads will be disqualified on the spot. ", 
+"The competition will have two rounds ", 
+"The first round will be elimination round where the top squads from each rooms will be qualified for the final round. (The elimination round will be played in erangel map) ", 
+"The second round will be final round where the squads will have to play two games and the points scored in each game will be noted and the final positions will be given based on the summation of points scored in each game of the final round. (The map for final round will be decided during the time of the event)" ],
             "desc": "",
             "name": "Pubg Mobile",
             "id": 50
@@ -1202,7 +1212,7 @@ module.exports = {
             "time": "2 PM to 3 PM",
             "venue": "BSN Hall",
             "contacts": [
-                ["Nanditha","9880420814"],["Nikhil U","9845698073"]
+                ["Sarvaswa M","9036523007"],["Nikhil U","9845698073"]
             ],
             "link": "",
             "rnr": ["Participants must come prepared with a monologue/monoact of their choosing, to be performed for 2-3 minutes. The selected participants will move to the 2nd and 3rd round that are surprise rounds and will be revealed at the time of event.", "Obscenity will lead to disqualification.", "Judges decision will be final."],
