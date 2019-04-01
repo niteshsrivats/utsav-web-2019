@@ -41,6 +41,8 @@ $(window).on('load', function(){
 // });
 
       $(".event-select").click(function(){
+
+        $("#explara-frame").css("display", "block");
         // alert(this.id);
         
         // var id = this.id.split(':')[1];
@@ -210,7 +212,10 @@ $('.accordion-wrap .entry-title').removeClass('active');
      var hash = (window.location.hash).replace('#', '');
      if(hash=='')
      $(".entry-title:nth-of-type(1)").trigger('click');
-
+        else{
+             $("#explara-frame").css("display", "block");
+        }
+   
         // console.log(parseInt(hash));
          $("#"+hash.split("_")[0]).trigger('click');
         $("#tab_"+hash).css("display", "block");
