@@ -81,9 +81,9 @@ module.exports = {
             "fee": ["₹150"],
             "prize": ["First Prize: ₹6000", "Second Prize: ₹3000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 14,
+            "time": "9 AM to 1 PM",
+            "venue": "Old Library Auditorium",
             "contacts": [
                 ["Vivek V","809573992"],["Narasimha Kanduri","8850316674"]
             ],
@@ -98,9 +98,9 @@ module.exports = {
             "fee": ["₹150"],
             "prize": ["First Prize: ₹6000", "Second Prize: ₹3000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 13,
+            "time": "10 AM to 1 PM",
+            "venue": "New Audi 1",
             "contacts": [
                 ["Krishna G","9108879438"],["Ayush Murthy","9538723651"]
             ],
@@ -120,14 +120,19 @@ module.exports = {
             "fee": ["₹100"],
             "prize": ["First Prize: ₹4000", "Second Prize: ₹2000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 14,
+            "time": "2 PM to 6 PM",
+            "venue": "CR Audi 2",
             "contacts": [
                 ["Varsha","7022715552"],["Vallari","9901981854"]
             ],
             "link": "",
-            "rnr": ["Teams shall consist of 2 persons", "Written prelims will be followed by finals", "Use of Internet is prohibited", "Quizmasters decision is final", "Cross college teams are allowed", "On spot registrations are available", "Host: Hedge"],
+            "rnr": ["Teams shall consist of 2 persons", 
+"Written prelims will be followed by finals", 
+"Use of Internet is prohibited", 
+"Quizmasters decision is final", 
+"Cross college teams are allowed", 
+"On spot registrations are available"],
             "desc": "A fun-filled quiz about literally anything in the world.",
             "name": "Arbit Quiz",
             "id": 7
@@ -137,9 +142,9 @@ module.exports = {
             "fee": ["₹100"],
             "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 12,
+            "time": "9 AM to 1 PM",
+            "venue": "Old Library Auditorium",
             "contacts": [
                 ["Niharika","9686438602"],["Jayanth Narra","9176981769"]
             ],
@@ -151,25 +156,30 @@ module.exports = {
 "Cross college teams are not allowed", 
 "3 teams per college", 
 "On spot registrations are not available"],
-            "desc": "   An exciting quiz based on books, movies, comics and TV shows",
+            "desc": "An exciting quiz based on books, movies, comics and TV shows",
             "name": "Fandom Quiz (in collaboration  with Inksanity) ",
             "id": 8
 },
 
 {
-            "fee": ["₹150"],
-            "prize": ["First Prize: ₹6000", "Second Prize: ₹3000"],
+            "fee": ["₹100"],
+            "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 13,
+            "time": "2 PM to 5 PM",
+            "venue": "BSN Hall",
             "contacts": [
-                ["Ashwin","9945527530"],["Aditya M J","8310723947"]
+                ["Ashwin","9945527530"],["Aditya M G","8310723947"]
             ],
             "link": "",
-            "rnr": ["Teams shall consist of max 3 persons", "Written prelims will be followed by finals", "Use of Internet is prohibited", "Quizmasters decision is final", "Cross college teams are allowed", "On spot registrations are available"],
-            "desc": "The gripping Sports and Entertainment Quiz.",
-            "name": "SpEnt Quiz ",
+            "rnr": ["Teams shall consist of max 3 persons", 
+"Written prelims will be followed by finals", 
+"Use of Internet is prohibited", 
+"Quizmasters decision is final", 
+"Cross college teams are allowed", 
+"On spot registrations are available"],
+            "desc": "A fun-filled and entertaining quiz for all anime enthusiasts.",
+            "name": "Anime Quiz ",
             "id": 9
 }],
       
@@ -184,7 +194,7 @@ module.exports = {
             "prize": ["First Prize: ₹12000", "Second Prize: ₹8000"],
             "img": "",
             "date": 12,
-            "time": "5 PM to 9 PM",
+            "time": "6:30 PM to 9 PM",
             "venue": "Main Stage",
             "contacts": [
                 ["Nelson","7085299108"],["Sumeet","8095183086"]
@@ -243,7 +253,7 @@ module.exports = {
             ],
             "link": "",
             "rnr": ["The participants will be given a maximum of 2 minutes time to showcase their moves.", "The best will be selected for the final rounds by the judge.", "The number of battles will be decided depending on the number of participants.", "Props are allowed (any kind of fluid, heavy objects or flame are not permitted).", "Any kind of obscenity will lead to disqualification."],
-            "desc": "",
+            "desc": "Bboy battle",
             "name": "TURTLE JAM (TWO-ON-TWO)",
             "id": 13
 },
@@ -491,9 +501,9 @@ module.exports = {
             "fee": ["₹100"],
             "prize": [],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 13,
+            "time": "9 AM to 1 PM",
+            "venue": "CR Audi 2",
             "contacts": [
                 ["Aditya Belvadi", "9663110528"]
             ],
@@ -510,7 +520,7 @@ module.exports = {
             "date": 0,
             "time": "",
             "venue": "",
-            "contacts": [
+            "contacts": [["Gautham M K", "9113081397"]
             ],
             "link": "",
             "rnr": ["The contest is open to all students", "Photos submitted must be original. Plagiarism will not be tolerated.", "There will be two themes based on UTSAV theme.", "There is no entry fee", "The entries must adhere to contest theme", "A maximum of two entries per theme is allowed", "The highest available resolution of the picture(s) must be submitted.", "Subtle Post processing is allowed. If image is processed, original must be mailed along with the edited one.", "Judges decision is final.", "Mail your queries to bmsphotographyclub@gmail.com", "All the entries will be showcased in an album on Facebook. The link will be sent along with the acknowledgement of entry", "“Likes” received by the entries in the album will NOT play a role in the judging process."],
@@ -522,9 +532,9 @@ module.exports = {
             "fee": ["₹50"],
             "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 13,
+            "time": "9 AM to 1 PM",
+            "venue": "CR Audi 2",
             "contacts": [
                 ["Gautham M K", "9113081397"]
             ],
@@ -577,9 +587,9 @@ module.exports = {
             "fee": ["₹100"],
             "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 12,
+            "time": "9 AM to 1 PM",
+            "venue": "Old library auditorium",
             "contacts": [
                 ["Jayanth N", "9176981769"], ["Niharika S", "9686438602"]
             ],

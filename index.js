@@ -5,7 +5,7 @@ var logger = require("morgan");
 var events = require('./events');
 var gallery = require('./gallery');
 var app = express();
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 80
 
 process.env.NODE_ENV = 'production';
 
