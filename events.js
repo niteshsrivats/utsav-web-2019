@@ -105,7 +105,12 @@ module.exports = {
                 ["Krishna G","9108879438"],["Ayush Murthy","9538723651"]
             ],
             "link": "",
-            "rnr": ["Teams shall consist of max 3 persons", "Written prelims will be followed by finals", "Use of Internet is prohibited", "Quizmasters decision is final", "Cross college teams are allowed", "On spot registrations are available", "Registration fee- Rs. 150", "Prize money- 6000 + 3000"],
+            "rnr": ["Teams shall consist of max 3 persons", 
+"Written prelims will be followed by finals", 
+"Use of Internet is prohibited", 
+"Quizmasters decision is final", 
+"Cross college teams are allowed", 
+"On spot registrations are available"],
             "desc": "A regular quiz based on anything and everything.",
             "name": "General Quiz",
             "id": 6
@@ -139,7 +144,13 @@ module.exports = {
                 ["Niharika","9686438602"],["Jayanth Narra","9176981769"]
             ],
             "link": "",
-            "rnr": ["Teams shall consist of max 2 persons", "Written prelims will be followed by finals", "Use of Internet is prohibited", "Quizmasters decision is final", "Cross college teams are not allowed", "3 teams per college", "BMS teams not allowed", "On spot registrations are not available"],
+            "rnr": ["Teams shall consist of max 2 persons", 
+"Written prelims will be followed by finals ", 
+"Use of Internet is prohibited", 
+"Quizmasters decision is final", 
+"Cross college teams are not allowed", 
+"3 teams per college", 
+"On spot registrations are not available"],
             "desc": "   An exciting quiz based on books, movies, comics and TV shows",
             "name": "Fandom Quiz (in collaboration  with Inksanity) ",
             "id": 8
@@ -411,7 +422,7 @@ module.exports = {
 
 {
             "fee": ["₹150"],
-            "prize": ["First Prize: ₹3000", "Second Prize: ₹1500"],
+            "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
             "date": 0,
             "time": "",
@@ -429,7 +440,7 @@ module.exports = {
 
 {
             "fee": ["₹400"],
-            "prize": ["First Prize: ₹6000", "Second Prize: ₹3000"],
+            "prize": ["First Prize: ₹4000", "Second Prize: ₹2000"],
             "img": "",
             "date": 0,
             "time": "",
@@ -442,6 +453,30 @@ module.exports = {
             "desc": "A number of western rock/metal bands compete against each other to decide the ultimate winner.",
             "name": "ACOUSTIC/GROUP SINGING",
             "id": 24
+},
+
+{
+            "fee": ["₹150"],
+            "prize": ["First Prize: ₹3000", "Second Prize: ₹1500"],
+            "img": "",
+            "date": 1,
+            "time": "10 AM - 1 PM",
+            "venue": "New Audi 1",
+            "contacts": [
+                ["Kelly","8861846292"]
+            ],
+            "link": "",
+            "rnr": ["Individual participation. It’s a one man show", 
+"The event will be split into three rounds: Prelims, Semis and the Finals", 
+"In the prelims, each rapper will be given a minute showcase and the judges will choose", 
+"An instrumental of choice is to be submitted to the console before the preliminary rounds starts.", 
+"Who wins the showcase is based on judging criteria. The top 4 then move to the semis.", 
+"In the semis instrumental will be given an rappers we’ll need to perform on spot.", 
+"The finalists ( 1st and 2nd) will be accompanied by the winners of #Esh (beatbox event on day . Cash prize to be won there as well and to be shared with the beatboxer who accompanied the rapper)", 
+"Failure to arrive on stage when called up on the stage lead to disqualification"],
+            "desc": "Rap competition, where participants showcase their ability to line up bars and play with the tempos to pump up the crowd.",
+            "name": "DropDaMic (Rap event)",
+            "id": 72
 }
 
 ],
@@ -460,7 +495,7 @@ module.exports = {
             "time": "",
             "venue": "",
             "contacts": [
-                ["Aditya Belvadi", "9663110528"], ["Jayanth", "9176981769"]
+                ["Aditya Belvadi", "9663110528"]
             ],
             "link": "",
             "rnr": [],
@@ -549,7 +584,13 @@ module.exports = {
                 ["Jayanth N", "9176981769"], ["Niharika S", "9686438602"]
             ],
             "link": "",
-            "rnr": ["Teams shall consist of max 2 persons.", "Written prelims will be followed by finals.", "Use of Internet is prohibited.", "Quizmasters decision is final.", "Cross college teams are not allowed.","3 teams per college.","BMS teams not allowed.","On spot registrations are not available."],
+            "rnr": ["Teams shall consist of max 2 persons", 
+"Written prelims will be followed by finals ", 
+"Use of Internet is prohibited", 
+"Quizmasters decision is final", 
+"Cross college teams are not allowed", 
+"3 teams per college", 
+"On spot registrations are not available"],
             "desc": "An exciting quiz based on books, movies, comics and TV shows",
             "name": "FANDOM QUIZ",
             "id": 30
@@ -850,7 +891,7 @@ module.exports = {
         "link": "/ticket#fashion_43",
         "img": "images/cmZcZT4.jpg",
         "events": [{
-            "fee": ["₹1500"],
+            "fee": ["₹2500"],
             "prize": ["First Prize: ₹30000", "Second Prize: ₹10000"],
             "img": "",
             "date": 13,
@@ -930,14 +971,14 @@ module.exports = {
         "img": "images/BnX1fY0.jpg",
         "link": "/ticket#respawn-gaming_47",
         "events": [{
-            "fee": [],
+            "fee": ["₹100"],
             "prize": ["First Prize: ₹1000"],
             "img": "",
             "date": 14,
             "time": "10 AM to 12 PM",
             "venue": "CR 406",
             "contacts": [
-                ["Jayanth", "8073987012"], ["Pramukh", "7411532681"]
+                ["Jayanth", "8073987012"], ["Vinayak S", "7259412248"]
             ],
             "link": "",
             "rnr": ["Each player will play 4 games viz. Dave, Mario Super Bros, Contra and Pacman. After the player exhausts his life, his/her high score is collectively added and placed in a leader board, at the end of the day the top player is rewarded with the prize."],
@@ -946,7 +987,7 @@ module.exports = {
             "id": 47
 },
 {
-            "fee": [],
+            "fee": ["₹500"],
             "prize": ["First Prize: ₹5000", "Second Prize: ₹3000"],
             "img": "",
             "date": 13,
@@ -962,7 +1003,7 @@ module.exports = {
             "id": 48
 },
 {
-            "fee": [],
+            "fee": ["₹250"],
             "prize": ["First Prize: ₹4000", "Second Prize: ₹2000"],
             "img": "",
             "date": 13,
@@ -978,7 +1019,7 @@ module.exports = {
             "id": 49
 },
 {
-            "fee": [],
+            "fee": ["₹200"],
             "prize": ["First Prize: ₹3000", "Second Prize: ₹1000"],
             "img": "",
             "date": 0,
@@ -989,7 +1030,7 @@ module.exports = {
             ],
             "link": "",
             "rnr": ["Each team can consists of four players. ", 
-"Atleast two player from each team must be present in the venue during the time of the event, it not present the squads will not be eligible for the competition. ", 
+"All four players from each team must be present in the venue during the time of the event, if not present the squads will not be eligible for the competition.", 
 "Physical attachments like triggers, any other attachment is prohibited. ", 
 "Emulators are not allowed, only mobile phones and tabs are allowed. ", 
 "Players can use discord channels provided by the organisers only. ", 
@@ -998,18 +1039,18 @@ module.exports = {
 "Cheating is strictly prohibited. As a condition of their participation in PlayerUnknown’s Battleground competition, players agree to refrain from manipulating the game files in any way, using of any unapproved game modifications, programmes, teaming up with other squads or any other methods that gives one an unfair advantage over another player. If found the squads will be disqualified on the spot. ", 
 "The competition will have two rounds ", 
 "The first round will be elimination round where the top squads from each rooms will be qualified for the final round. (The elimination round will be played in erangel map) ", 
-"The second round will be final round where the squads will have to play two games and the points scored in each game will be noted and the final positions will be given based on the summation of points scored in each game of the final round. (The map for final round will be decided during the time of the event)" ],
+"The second round will be final round where the squads will have to play two games and the points scored in each game will be noted and the final positions will be given based on the summation of points scored in each game of the final round. (The map for final round will be decided during the time of the event)"],
             "desc": "",
             "name": "Pubg Mobile",
             "id": 50
 }, 
 {
-            "fee": [],
+            "fee": ["₹50"],
             "prize": [],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": -1,
+            "time": "12 PM to 4 PM",
+            "venue": "Opp. New Audi 2",
             "contacts": [
                 ["Vinayak", "7259412248"]
             ],
