@@ -2254,3 +2254,8 @@ div.angrytext {
 #explara-frame{
     display: none;
 }
+
+.sponsor-item{
+    width: 200px;
+    height: auto;
+}
