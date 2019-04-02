@@ -2256,6 +2256,7 @@ div.angrytext {
 }
 
 .sponsor-item{
-    width: 200px;
-    height: auto;
+    max-width: 200px;
+    max-height: auto;
+    /* padding: auto 20px; */
 }
