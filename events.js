@@ -459,7 +459,7 @@ module.exports = {
             "fee": ["₹150"],
             "prize": ["First Prize: ₹3000", "Second Prize: ₹1500"],
             "img": "",
-            "date": 1,
+            "date": 14,
             "time": "10 AM - 1 PM",
             "venue": "New Audi 1",
             "contacts": [
