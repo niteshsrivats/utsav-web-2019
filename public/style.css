@@ -2258,12 +2258,13 @@ div.angrytext {
 .sponsor-item{
     width: 250px;
     max-height: auto;
+    margin: 30px;
     /* padding: auto 20px; */
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1199px){
     .sponsor-item { 
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 }
