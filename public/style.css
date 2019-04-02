@@ -2256,7 +2256,14 @@ div.angrytext {
 }
 
 .sponsor-item{
-    max-width: 200px;
+    width: 250px;
     max-height: auto;
     /* padding: auto 20px; */
+}
+
+@media screen and (max-width: 992px){
+    .sponsor-item { 
+        width: 100%;
+        margin-bottom: 40px;
+    }
 }
