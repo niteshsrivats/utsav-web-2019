@@ -786,24 +786,26 @@ module.exports = {
             "desc": "Get like minded musicians together .Endless jamming sessions, all night jams ,composing songs..are you the budding Indian band looking out for a stage? Here is a grand stage to show off your team effort.",
             "name": "INDIAN GROUP MUSIC",
             "id": 41
-},
-
-{
-            "fee": ["₹300 (per team)"],
-            "prize": ["First Prize: ₹5000", "Second Prize: ₹2500"],
-            "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
-            "contacts": [
-                ["Sriranga A U","9886546448"],["Aditya M G","8310723947"]
-            ],
-            "link": "",
-            "rnr": ["A team can have 4 - 8 members", "The entire team should consist of only Instrumentalists.", "Time limit: 10+5.", "Own compositions have more weightage", "Cross-college teams are NOT allowed"],
-            "desc": "",
-            "name": "Instrumental Ensemble",
-            "id": 42
 }
+
+// ,
+
+// {
+//             "fee": ["₹300 (per team)"],
+//             "prize": ["First Prize: ₹5000", "Second Prize: ₹2500"],
+//             "img": "",
+//             "date": 0,
+//             "time": "",
+//             "venue": "",
+//             "contacts": [
+//                 ["Sriranga A U","9886546448"],["Aditya M G","8310723947"]
+//             ],
+//             "link": "",
+//             "rnr": ["A team can have 4 - 8 members", "The entire team should consist of only Instrumentalists.", "Time limit: 10+5.", "Own compositions have more weightage", "Cross-college teams are NOT allowed"],
+//             "desc": "",
+//             "name": "Instrumental Ensemble",
+//             "id": 42
+// }
 
 ],
        
