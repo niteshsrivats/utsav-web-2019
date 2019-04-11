@@ -26,8 +26,8 @@ module.exports = {
             "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
             "date": 13,
-            "time": "10 AM to 1 PM",
-            "venue": "CR 303",
+            "time": "1 PM to 3 PM",
+            "venue": "CR 305",
             "contacts": [
                 ["Ritika Siyal","8073108923"],["Sanjana Bhadri","9983641999"]
             ],
@@ -43,7 +43,7 @@ module.exports = {
             "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
             "date": 14,
-            "time": "10 AM to 2 PM",
+            "time": "1 PM to 3 PM",
             "venue": "Rock Garden",
             "contacts": [
                 ["Dhanya Pradeep","9742689709"],["Aditi Bhat","7619314441"]
@@ -60,7 +60,7 @@ module.exports = {
             "img": "",
             "date": 13,
             "time": "10 AM to 12 PM",
-            "venue": "MESH Hall",
+            "venue": "CR 304",
             "contacts": [
                 ["Sushmitha M","8050473706"],["Bharath Gorental","9880371862"]
             ],
@@ -166,7 +166,7 @@ module.exports = {
             "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
             "date": 13,
-            "time": "2 PM to 5 PM",
+            "time": "3 PM to 6 PM",
             "venue": "BSN Hall",
             "contacts": [
                 ["Ashwin","9945527530"],["Aditya M G","8310723947"]
@@ -280,7 +280,7 @@ module.exports = {
             "prize": ["First Prize: ₹12000", "Second Prize: ₹8000"],
             "img": "",
             "date": 12,
-            "time": "5 PM to 9 PM",
+            "time": "6:30 PM to 9 PM",
             "venue": "Main Stage",
             "contacts": [
                 ["Tanushree P","7411421114"],["Yoshita","9986822075"]
@@ -327,7 +327,7 @@ module.exports = {
 },
 {
             "fee": ["₹100"],
-            "prize": ["First Prize: ₹2000", "Second Prize: ₹1500"],
+            "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
             "date": 13,
             "time": "2 PM to 6 PM",
@@ -400,9 +400,9 @@ module.exports = {
             "fee": ["₹150"],
             "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 13,
+            "time": "2 PM to 4:30 PM",
+            "venue": "New Audi 1",
             "contacts": [
                 ["Shalaaka Yashvanth","9740235460"],["Nandita Nanda","9880420814"]
             ],
@@ -418,7 +418,7 @@ module.exports = {
             "prize": ["First Prize: ₹12000", "Second Prize: ₹7000"],
             "img": "",
             "date": 13,
-            "time": "1 PM to 3 PM",
+            "time": "12 PM to 2:30 PM",
             "venue": "Main Stage",
             "contacts": [
                 ["Raksha Rao","8618750350"],["Amala Lawrence","9482516068"]
@@ -434,9 +434,9 @@ module.exports = {
             "fee": ["₹150"],
             "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 13,
+            "time": "3 PM to 5 PM",
+            "venue": "Main Stage",
             "contacts": [
                 ["Kelly","8861846292"],["Namita Moses","7406729899"]
             ],
@@ -452,9 +452,9 @@ module.exports = {
             "fee": ["₹400"],
             "prize": ["First Prize: ₹4000", "Second Prize: ₹2000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 14,
+            "time": "10 AM to 12:30 PM",
+            "venue": "CR Audi 2",
             "contacts": [
                 ["Karthik kharidehal","9448471214"],["Tannoy Debnath","9163598688"]
             ],
@@ -555,9 +555,9 @@ module.exports = {
             "fee": ["₹100"],
             "prize": ["First Prize: ₹4000", "Second Prize: ₹2000"],
             "img": "",
-            "date":0,
-            "time": "",
-            "venue": "",
+            "date":-1,
+            "time": "April 13th: 9 AM to 5 PM, April 14th: 10 AM to 12:30 PM",
+            "venue": "April 13th: Old Lib Audi, April 14th: EC Seminar Hall",
             "contacts": [
                 ["Vinay S Yadav", "9591515538"], ["Anirudh Bathija", "9008697857"]
             ],
@@ -572,8 +572,8 @@ module.exports = {
             "prize": ["First Prize: ₹2500", "Second Prize: ₹1000"],
             "img": "",
             "date": 12,
-            "time": "10 AM to 1:30 PM",
-            "venue": "CR303",
+            "time": "10 AM to 1 PM",
+            "venue": "CR301/302",
             "contacts": [
                 ["Irene Komal P", "8105668964"], ["Krishaa Madhikarmi", "9742696716"]
             ],
@@ -610,7 +610,7 @@ module.exports = {
     "img": "",
     "date": 13,
     "time": "9 AM to 1 PM",
-    "venue": "CR210",
+    "venue": "CR209&210",
     "contacts": [
         ["Muskan Agarwal", "9571581321"],
         ["Divisha Agarwal", "9342682285"]
@@ -626,7 +626,7 @@ module.exports = {
     "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
     "img": "",
     "date": 14,
-    "time": "10 AM to 2 PM",
+    "time": "10 AM to 1 PM",
     "venue": "MV Hall",
     "contacts": [
         ["Shehyaaz Khan", "9880424607"],
@@ -653,7 +653,7 @@ module.exports = {
             "img": "",
             "date": 14,
             "time": "10 AM to 1 PM",
-            "venue": "MESH hall",
+            "venue": "CR403",
             "contacts": [
                 ["Prajna M", "8123181898"], ["Sowmya Hegde", "9449824854"]
             ],
@@ -669,7 +669,7 @@ module.exports = {
             "img": "",
             "date": 13,
             "time": "2 PM to 5 PM",
-            "venue": "CR 303",
+            "venue": "CR 302/303",
             "contacts": [
                 ["Arun DK", "7795486844"], ["K V Niranjan Gupta", "9743634919"]
             ],
@@ -685,12 +685,17 @@ module.exports = {
             "img": "",
             "date": 13,
             "time": "10 AM to 12:30 PM",
-            "venue": "C307",
+            "venue": "C307 & 308",
             "contacts": [
                 ["Sneha", "8971902327"], ["Ajith Jain", "9140111854"]
             ],
             "link": "",
-            "rnr": ["Each team should have maximum of two members."],
+            "rnr": ["Each team should have maximum of two members.", "The event will have two rounds.",
+"The first round will be a math-based quiz that will test logical thinking and arithmetic reasoning skills and it will act as the screening test for the second round.",
+"The second round will be based on encryption and decryption.",
+"The participants will have to navigate through a virtual maze to reach the treasure.",
+"It will be an adventurous navigation in a mathematical frame with interesting twists.",
+"The first team to get the treasure will emerge as the winner."],
             // "The event will have two rounds", "The first round will be a math-based quiz that will test logical thinking and arithmetic reasoning skills and it will act as the screening test for the second round.", "The second round will be based on encryption and decryption.", "The participants will have to navigate through a virtual maze to reach the treasure.", "It will be an adventurous navigation in a mathematical frame with interesting twists.", "The first team to get the treasure will emerge as the winner.", "The event will go on for about 2 to 3 hours."],
             "desc": "A virtual maze where you find yourself lost like in the beauty of a mirage. Want to experience this in a mathematical frame? Take your path towards the Infinite aMAZE because you never know how mysteriously your path inside the maze can help you reach the treasure.",
             "name": "Infinite aMAZE",
@@ -708,8 +713,8 @@ module.exports = {
             "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
             "img": "",
             "date": 14,
-            "time": "10 AM to 4 PM",
-            "venue": "FDC hall",
+            "time": "10 AM to 2 PM",
+            "venue": "BSN Hall",
             "contacts": [
                 ["Neha Srinivas","8147614138"],["Nishal B","8762425910"]
             ],
@@ -724,8 +729,8 @@ module.exports = {
             "fee": ["₹100"],
             "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
             "img": "",
-            "date": 13,
-            "time": "10 AM to 3 PM",
+            "date": 14,
+            "time": "10 AM to 2 PM",
             "venue": "FDC hall",
             "contacts": [
                 ["Sai Meera","9739045980"],["Shreyas S","8296837299"]
@@ -741,9 +746,9 @@ module.exports = {
             "fee": ["₹100"],
             "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
             "img": "",
-            "date": 14,
-            "time": "3:30 PM to 7 PM",
-            "venue": "MESH hall",
+            "date": 13,
+            "time": "10 AM to 2PM",
+            "venue": "CR 406/407",
             "contacts": [
                 ["S. Sangeetha","8197030945"],["Veena Naib","9538286224"]
             ],
@@ -759,7 +764,7 @@ module.exports = {
             "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
             "img": "",
             "date": 13,
-            "time": "1 PM to 5 PM",
+            "time": "10 AM to 2 PM",
             "venue": "Mesh hall",
             "contacts": [
                 ["Gautham A. N","8861114642"],["Aditya R","9482312621"]
@@ -773,11 +778,11 @@ module.exports = {
 
 {
             "fee": ["₹300"],
-            "prize": ["First Prize: ₹5000", "Second Prize: ₹2500"],
+            "prize": ["First Prize: Studio time for recording one song", "Second Prize: ₹2500"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 13,
+            "time": "1:30 PM to 4:30 PM",
+            "venue": "CR Audi 2",
             "contacts": [
                 ["Md. Ansaar Attar","7411662283"],["Bharath","9880178495"]
             ],
@@ -816,12 +821,12 @@ module.exports = {
         "link": "/ticket#chiranthana_63",
         "img": "images/rbAX6Wx.jpg",
         "events": [{
-            "fee": [],
-            "prize": [],
+            "fee": ["₹50"],
+            "prize": ["First Prize: ₹1000", "Second Prize: ₹500"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 13,
+            "time": "3:30 PM to 6 PM",
+            "venue": "MESH",
             "contacts": [
                 ["Hemang", "9482861034"], ["Venkatatheertha H V", "9739549664"]
             ],
@@ -832,11 +837,11 @@ module.exports = {
             "id": 63
 },
 {
-            "fee": [],
-            "prize": [],
+            "fee": ["₹100"],
+            "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
             "date": 13,
-            "time": "1 PM to 3 PM",
+            "time": "1:30 PM to 3:30 PM",
             "venue": "MV Hall",
             "contacts": [
                 ["Arpitha K K", "9449917378"], ["Akshaya Kumar K M", "8277180299"]
@@ -848,12 +853,12 @@ module.exports = {
             "id": 64
 },
 {
-            "fee": [],
-            "prize": [],
+            "fee": ["₹120"],
+            "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 13,
+            "time": "10 AM to 12 PM",
+            "venue": "BSN Hall",
             "contacts": [
                 ["Shruti Hegde", "9481373575"], ["Thanmayee PL", "9071962240"]
             ],
@@ -864,12 +869,12 @@ module.exports = {
             "id": 65
 },
 {
-            "fee": [],
-            "prize": [],
+            "fee": ["₹120"],
+            "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
             "img": "",
             "date": 14,
-            "time": "10 PM to 12 PM",
-            "venue": "Old library auditorium",
+            "time": "10 AM to 12 PM",
+            "venue": "MESH",
             "contacts": [
                 ["Ganesh P Patil", "8792947898"], ["Basavaraj Danagond", "9742990335"]
             ],
@@ -880,8 +885,8 @@ module.exports = {
             "id": 66
 },
 {
-            "fee": [],
-            "prize": [],
+            "fee": ["₹120"],
+            "prize": ["First Prize: ₹1500", "Second Prize: ₹1000"],
             "img": "",
             "date": 14,
             "time": "1:30 PM to 4 PM",
@@ -907,7 +912,7 @@ module.exports = {
             "prize": ["First Prize: ₹30000", "Second Prize: ₹10000"],
             "img": "",
             "date": 13,
-            "time": "6:30 PM to 8 PM",
+            "time": "5 PM to 8 PM",
             "venue": "Main stage",
             "contacts": [
                 ["Gowri Venkatesh","9742170045"],["Ronith Gowda","9901729123"]
@@ -932,8 +937,8 @@ module.exports = {
             "prize": ["First Prize: ₹4000", "Second Prize: ₹1500"],
             "img": "",
             "date": 13,
-            "time": "12:30 PM to 3:30 PM",
-            "venue": "CR 403",
+            "time": "12:30 PM to 1:30 PM",
+            "venue": "EC Seminar Hall",
             "contacts": [
                 ["Sharanya Shreedhar", "9739207066"], ["Pranjal Sinha", "9663265062"]
             ],
@@ -948,8 +953,8 @@ module.exports = {
             "prize": ["First Prize: ₹4000", "Second Prize: ₹1500"],
             "img": "",
             "date": 13,
-            "time": "1 PM to 3 PM",
-            "venue": "CR 403",
+            "time": "10 AM to 1 PM",
+            "venue": "BSN HALL",
             "contacts": [
                 ["Akshay Chitlangia", "8095210524"], ["Gautham ullal", "8792818850"]
             ],
@@ -984,11 +989,11 @@ module.exports = {
         "link": "/ticket#respawn-gaming_47",
         "events": [{
             "fee": ["₹100"],
-            "prize": ["First Prize: ₹1000"],
+            "prize": ["First Prize: ₹1000", "Second Prize: ₹500"],
             "img": "",
             "date": 14,
             "time": "10 AM to 12 PM",
-            "venue": "CR 406",
+            "venue": "CSE Lab",
             "contacts": [
                 ["Jayanth", "8073987012"], ["Vinayak S", "7259412248"]
             ],
@@ -1002,7 +1007,7 @@ module.exports = {
             "fee": ["₹500"],
             "prize": ["First Prize: ₹5000", "Second Prize: ₹3000"],
             "img": "",
-            "date": 13,
+            "date": -1,
             "time": "9 AM to 5 PM",
             "venue": "CR 401 & 402",
             "contacts": [
@@ -1020,7 +1025,7 @@ module.exports = {
             "img": "",
             "date": 13,
             "time": "9 AM to 5 PM",
-            "venue": "CR 403",
+            "venue": "CR 403/404",
             "contacts": [
                 ["Arun", "7795486844"], ["Aditya", "8310723947"]
             ],
@@ -1034,9 +1039,9 @@ module.exports = {
             "fee": ["₹200"],
             "prize": ["First Prize: ₹3000", "Second Prize: ₹1000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 13,
+            "time": "3 PM to 6 PM",
+            "venue": "CR 406 & 407",
             "contacts": [
                 ["Shubham s", "8867727162"], ["Akshay", "8317363807"]
             ],
@@ -1135,7 +1140,7 @@ module.exports = {
             "fee": ["₹100"],
             "prize": [],
             "img": "",
-            "date": 14,
+            "date": -1,
             "time": "9 AM to 4 PM",
             "venue": "Law College Arena",
             "contacts": [
@@ -1154,7 +1159,7 @@ module.exports = {
             "img": "",
             "date": 12,
             "time": "9 AM to 4 PM",
-            "venue": "Area around CR, EC, Mech block, library",
+            "venue": "Law College Arena",
             "contacts": [
                 ["Nidesh D shetty","8296551633"],["Amith A Shetty","7259171206"]
             ],
@@ -1169,7 +1174,7 @@ module.exports = {
             "fee": ["₹100"],
             "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
-            "date": 13,
+            "date": -1,
             "time": "9 AM to 4 PM",
             "venue": "Mech & EC Block Passage",
             "contacts": [
@@ -1227,16 +1232,16 @@ module.exports = {
             "fee": ["₹800"],
             "prize": ["First Prize: ₹8000", "Second Prize: ₹5000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 14,
+            "time": "10 AM to 1 PM",
+            "venue": "Infront of PG block",
             "contacts": [
                 ["Abantika roy","8292560977"],["Pradyumna hooli","9902776183"]
             ],
             "link": "",
             "rnr": ["Only 3 percussionists allowed.", "No. of participants should be 10-15 including percussionists.", "Duration 10 +2 minutes.", "Language can be English/Kannada/Hindi.", "No speakers or any sort of electronic instruments allowed.", "Any portrayal of obscenity will lead to disqualification.", "Judges decision is final."],
             "desc": "Ever wondered what real theatre is?  It has energy, ideas, vision, innovation and, moreover, the power to influence. Buckle up and get ready for a mind blowing ride!",
-            "name": "Natalia - Street Play",
+            "name": "Mayaloka - Street Play",
             "id": 60
 },
 
@@ -1244,9 +1249,9 @@ module.exports = {
             "fee": ["₹400"],
             "prize": ["First Prize: ₹4000", "Second Prize: ₹2000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 13,
+            "time": "2 PM to 5 PM",
+            "venue": "Indoor Stadium",
             "contacts": [
                 ["Vikas","9590858185"],["Chandan C Bagan","9741672080"]
             ],
@@ -1262,7 +1267,7 @@ module.exports = {
             "prize": ["First Prize: ₹2000", "Second Prize: ₹1000"],
             "img": "",
             "date": 14,
-            "time": "2 PM to 3 PM",
+            "time": "3 PM to 4 PM",
             "venue": "BSN Hall",
             "contacts": [
                 ["Sarvaswa M","9036523007"],["Nikhil U","9845698073"]
@@ -1284,11 +1289,11 @@ module.exports = {
         "img": "images/DRXiZcm.jpg",
         "events": [{
             "fee": ["₹250"],
-            "prize": ["First Prize ₹5000", "Second Prize ₹2500", "Third Prize ₹1500"],
+            "prize": ["First Prize ₹5000", "Second Prize ₹3500", "Third Prize ₹1000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 12,
+            "time": "6:30 PM to 9 PM",
+            "venue": "Indoor Stadium",
             "contacts": [
                 ["Akhil", "9945107250"]
             ],
@@ -1305,9 +1310,9 @@ module.exports = {
             "fee": ["₹50"],
             "prize": ["First Prize ₹1500", "Second Prize ₹1000"],
             "img": "",
-            "date": 0,
-            "time": "",
-            "venue": "",
+            "date": 13,
+            "time": "10 AM to 4 PM",
+            "venue": "C Bench",
             "contacts": [
                 ["Namratha R.", "8147264156"]
             ],
@@ -1348,6 +1353,21 @@ module.exports = {
             "desc": "Need a break from all the competition? Want to just sit back and listen to some music? Well, here’s Whiplash! Listen to some of the best singers from the many bands performing in this year’s UTSAV! Wave along the crowd, listening to your favourite tunes and sing your worries away! ",
             "name": "Whiplash",
             "id": 71
+},{
+            "fee": ["₹100"],
+            "prize": ["First Prize ₹2000", "Second Prize ₹1000"],
+            "img": "",
+            "date": 12,
+            "time": "10 AM to 4 PM",
+            "venue": "Main Canteen",
+            "contacts": [
+             ["Shashank", "9448574269"]
+            ],
+            "link": "",
+            "rnr": [],
+            "desc": "Need a break from all the competition? Want to just sit back and listen to some music? Well, here’s Whiplash! Listen to some of the best singers from the many bands performing in this year’s UTSAV! Wave along the crowd, listening to your favourite tunes and sing your worries away! ",
+            "name": "Carrom",
+            "id": 73
 }],
        
         "name": "Informal"
