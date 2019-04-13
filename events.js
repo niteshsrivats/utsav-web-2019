@@ -703,7 +703,7 @@ module.exports = {
 },
 {
             "fee": [],
-            "prize": ["First Prize: ₹2000"],
+            "prize": ["Prizes worth ₹2000, two ₹500 prizes distributed each day"],
             "img": "",
             "date": -1,
             "time": "10 AM to 3 PM",
@@ -714,7 +714,7 @@ module.exports = {
             "link": "",
             "rnr": ["Answer the Questions updated every hour between 10am-3pm on 13th&14th of April to Win Exciting Prizes Worth Rs.2000/-",
 "You must answer the maximum number of right questions each day to win",
-"At the end of each day , 2 winners will be announced and contacted at 3:30pm in BMSCE campus"],
+"At the end of each day , 2 winners will be announced and contacted at 4:30pm in BMSCE campus"],
             "desc": "We'll be posting a question every hour, that can be accessed through the link posted around the campus. Winners will be selected on the basis of maximum right answers sent per day. So keep you eyes wide open and be ready to be Brainstormed! Questions will be updated hourly from 10am to 3pm on 13th and 14th April on the website https://bmscepentagram.wixsite.com/mysite",
             "name": "BrainStorm",
             "id": 74
