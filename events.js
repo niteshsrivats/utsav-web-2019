@@ -703,7 +703,7 @@ module.exports = {
 },
 {
             "fee": [],
-            "prize": ["Prizes worth ₹2000, two ₹500 prizes distributed each day"],
+            "prize": ["Prizes worth ₹2000, two ₹500 prizes each day"],
             "img": "",
             "date": -1,
             "time": "10 AM to 3 PM",
